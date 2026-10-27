@@ -1,0 +1,290 @@
+Compiled on 27 October 2026 15:34:29
+Version string: SE2026.0.261027.20.08.EX
+
+=== Misc ===
+ImageFrames: 218
+ImageFrame Data Size: 9336
+Maps and Asset Bundles Count: 4
+Maps and Asset Bundles Data Size: 0
+Actor Count: 10
+Actor Data Size: 1800
+Block Count: 3
+Block Data Size: 204
+Sound Count: 8
+Sound Data Size: 224
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 69
+Animations Data Size: 1104
+AnimationFrame Count: 219
+AnimationFrame Data Size: 3504
+Attack Data: 5
+Attack Data Size: 440
+Misc data size: 92
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   MC01 |    14050 |     7228 |  NoCrunch | Music data boss_loop
+   MS01 |    21278 |    65538 |  NoCrunch | Music samples boss_loop
+   MC02 |    86816 |    23612 |  NoCrunch | Music data metal_squad
+   MS02 |   110428 |    83268 |  NoCrunch | Music samples metal_squad
+   PG-1 |      512 |    13538 |  NoCrunch | Plugin: PT Player
+   PL04 |   193696 |     4932 |  NoCrunch | Panel (background color #000)
+   PL01 |   198628 |     2476 |       ZX0 | Panel scorpion_eng_splashscreen
+   PL02 |   201104 |     6196 |  NoCrunch | Panel hud
+   PC02 |   207300 |      702 |  NoCrunch | Panel bobs hud
+   PL03 |   208002 |    47860 |  NoCrunch | Panel title
+   VV00 |   255862 |      992 |  NoCrunch | Project Variables
+   VC00 |   256854 |    22922 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |      388 |      112 |  NoCrunch | Map actor data for stage_1
+   MH01 |   279776 |      848 |  NoCrunch | Header data for map stage_1
+   MD01 |   280624 |    23408 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   AB00 |   304032 |   151984 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB03 |   456016 |    99758 |  NoCrunch | Asset bundle 3 (ken_super)
+   AB02 |   555774 |    80266 |  NoCrunch | Asset bundle 2 (ken_normal)
+   AB01 |   636040 |    23572 |  NoCrunch | Asset bundle 1 (stage_1)
+   DB00 |   659612 |     6568 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   666180 |     4508 |  NoCrunch | Project Header
+   PD01 |      500 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |   670688 |    16738 |  NoCrunch | Project Data
+   VR00 |      504 |        4 |  NoCrunch | Project virtual machine redirects
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+  151984 |   151984 |        | Asset bundle 0 (Core project asset bundle)
+   99758 |    99758 |        | Asset bundle 3 (ken_super)
+   83268 |    83268 |        | Music samples metal_squad
+   80266 |    80266 |        | Asset bundle 2 (ken_normal)
+   65538 |    65538 |        | Music samples boss_loop
+   47860 |    47860 |        | Panel title
+   23612 |    23612 |        | Music data metal_squad
+   23572 |    23572 |        | Asset bundle 1 (stage_1)
+   23408 |    23408 |        | Tile data for map stage_1 (mem restrictions:None)
+   22922 |    22922 |        | Project virtual machine (codeblocks)
+   16738 |    16738 |        | Project Data
+   13538 |    13538 |        | Plugin: PT Player
+    7228 |     7228 |        | Music data boss_loop
+    6568 |     6568 |        | Misc Data (paths, hurt boxes etc)
+    6196 |     6196 |        | Panel hud
+    4932 |     4932 |        | Panel (background color #000)
+    4508 |     4508 |        | Project Header
+    2476 |    36780 |  (94%) | Panel scorpion_eng_splashscreen
+     992 |      992 |        | Project Variables
+     848 |      848 |        | Header data for map stage_1
+     702 |      702 |        | Panel bobs hud
+     112 |      112 |        | Map actor data for stage_1
+       4 |        4 |        | Project Custom Collisions
+       4 |        4 |        | Project virtual machine redirects
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (Panel: title): 47860
+Music sample (metal_squad): 83268
+BP Buffer memory: 131100
+Core sfx/gfx memory: 151983
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map data memory: 23408
+Map background memory: 4932
+EXE memory: 196880
+vm memory: 22922
+project memory: 16738
+Music data (metal_squad): 23612
+Misc data memory: 6568
+Plugin: PT Player: 13538
+memory reserved for codeblocks variables: 992
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+OS/other estimated: 105472
+
+Accounted memory chip: 537151
+Accounted memory other: 401122
+Accounted memory total: 938273
+
+=== Possibly unused animations ===
+enemies_axe_grunt_bump_l
+enemies_axe_grunt_bump_r
+enemies_axe_grunt_die_l
+enemies_axegrunt_throw_l
+enemies_axegrunt_throw_r
+ken_die_l
+ken_duck_kick_l
+ken_duck_punch_l
+ken_jump_atk_kick_l
+ken_jump_atk_punch_l
+ken_pain_l
+ken_punch_l
+ken_standing_kick_l
+ken_super_die_l
+ken_super_duck_kick_l
+ken_super_duck_punch_l
+ken_super_jump_atk_kick_l
+ken_super_jump_atk_punch_l
+ken_super_pain_l
+ken_super_punch_l
+ken_super_standing_kick_l
+ken_transform_power_up_l
+
+=== Possibly unused Actors ===
+stage1_grunt
+
+=== Possibly unused sound effects ===
+power_up
+
+=== Codeblocks by compiled size ===
+player_on_timer: 914
+load_level: 640
+attack_button_2_kick: 570
+attack_button_1_punch: 534
+player_land: 534
+stage_reset: 510
+stage_timer: 500 (Unused?)
+player_bump: 432
+enemy_damage: 406
+enemy_hit_player: 396
+pre_startup: 374
+startup: 350
+do_teleport: 318
+flipscreen_smooth: 310 (Unused?)
+player_transform: 306
+enemy_pop: 300
+freemem: 288
+flipxymove: 278 (Unused?)
+waitforframes: 274
+load_next_level: 268 (Unused?)
+autogen_ken_super_punch_l_1: 244
+autogen_ken_super_punch_r_1: 244
+autogen_ken_super_standing_kick_l_5: 244
+autogen_ken_super_standing_kick_r_5: 244
+block_find: 210 (Unused?)
+set_yresolution: 206
+enemy_special: 202 (Unused?)
+enemy_bump: 192
+check_talkpad: 190 (Unused?)
+pause: 184
+autogen_ken_super_duck_punch_l_1: 180
+autogen_ken_super_duck_punch_l_5: 180
+autogen_ken_super_duck_punch_r_1: 180
+autogen_ken_super_jump_atk_punch_l_1: 180
+autogen_ken_super_jump_atk_punch_l_5: 180
+autogen_ken_super_punch_l_3: 180
+autogen_ken_super_punch_l_5: 180
+autogen_ken_super_punch_r_3: 180
+autogen_ken_super_punch_r_5: 180
+autogen_ken_super_standing_kick_l_1: 180
+autogen_ken_super_standing_kick_r_1: 180
+block_count: 178 (Unused?)
+autogen_ken_super_duck_punch_r_5: 178
+autogen_ken_super_jump_atk_punch_r_1: 178
+autogen_ken_super_jump_atk_punch_r_5: 178
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160
+flipxmove: 142
+restart_this_level: 136 (Unused?)
+check_direction: 136
+load_panel: 134
+unload_level: 132
+stop_sfx: 130
+destroy_all_blocks: 128 (Unused?)
+autogen_ken_duck_kick_l_1: 116
+autogen_ken_duck_punch_l_1: 116
+autogen_ken_jump_atk_kick_l_1: 116
+autogen_ken_jump_atk_kick_r_1: 116
+autogen_ken_jump_atk_punch_l_1: 116
+autogen_ken_punch_l_1: 116
+autogen_ken_standing_kick_l_1: 116
+autogen_ken_standing_kick_r_1: 116
+autogen_ken_super_duck_kick_l_1: 116
+autogen_ken_super_duck_kick_r_1: 116
+autogen_ken_super_duck_punch_l_3: 116
+autogen_ken_super_jump_atk_kick_l_0: 116
+autogen_ken_super_jump_atk_kick_r_0: 116
+autogen_ken_super_jump_atk_punch_l_3: 116
+autogen_ken_super_standing_kick_l_3: 116
+autogen_ken_duck_kick_r_1: 114
+autogen_ken_duck_punch_r_1: 114
+autogen_ken_jump_atk_punch_r_1: 114
+autogen_ken_punch_r_1: 114
+autogen_ken_super_duck_punch_r_3: 114
+autogen_ken_super_jump_atk_punch_r_3: 114
+autogen_ken_super_standing_kick_r_3: 114
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+waitforfireup: 106
+error_checks: 104
+unload_panel: 102
+waitforfiredown: 102
+stage_timer_debug: 100
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+player_look_at_me: 94
+autogen_bird_fly_0: 90
+autogen_bird_fly_1: 90
+autogen_bird_fly_2: 90
+autogen_bird_fly_3: 90
+autogen_bird_fly_5: 90
+autogen_bird_fly_6: 90
+autogen_bird_fly_7: 90
+autogen_enemies_axe_thrown_l_0: 90
+autogen_enemies_axe_thrown_r_0: 90
+autogen_enemies_axegrunt_attack_l_1: 90
+autogen_enemies_axegrunt_attack_r_1: 90
+autogen_enemies_axegrunt_walk_l_0: 90
+autogen_enemies_axegrunt_walk_l_1: 90
+autogen_enemies_axegrunt_walk_l_3: 90
+autogen_enemies_axegrunt_walk_r_0: 90
+autogen_enemies_axegrunt_walk_r_1: 90
+autogen_enemies_axegrunt_walk_r_3: 90
+autogen_ken_jump_atk_kick_l_4: 90
+autogen_ken_jump_atk_kick_r_4: 90
+autogen_ken_super_jump_atk_kick_l_1: 90
+autogen_ken_super_jump_atk_kick_r_1: 90
+autogen_ken_transform_power_up_l_4: 90
+autogen_ken_transform_power_up_r_4: 90
+pre_load_level: 86
+waitforfirehit: 86
+autogen_bird_fly_4: 86
+autogen_enemies_axe_grunt_die_l_1: 78
+AUTOGEN_OUTOFSCREEN_flipxmove_flipxmove_None_None: 78
+fadeout: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+load_music: 74
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+enemy_ai: 72 (Unused?)
+test: 68
+jump_actor: 66 (Unused?)
+Autogen_UnloadAllAssetBundles: 66 (Unused?)
+destroy_all_actors: 60
+destroy_actor: 58
+quit: 58 (Unused?)
+freemem_hard: 54 (Unused?)
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+autogen_ken_jump_l_0: 52
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+freeze_actor: 46 (Unused?)
+unfreeze_actor: 46 (Unused?)
+autogen_enemies_axe_grunt_die_l_3: 38
+autogen_ken_die_l_0: 38
+autogen_ken_transform_power_up_l_5: 38
+count_enemies: 36
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_registers: 26 (Unused?)
+enemy_land: 26
