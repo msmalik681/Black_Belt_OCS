@@ -68,6 +68,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -97,7 +98,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "Note_D2",
+      "Expression": "",
       "Index": "0",
       "Label": "",
       "Disabled": false,
@@ -144,6 +145,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -220,6 +222,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -288,11 +291,12 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "actor_type",
           "Comparison": "Equals",
-          "RightSide": "axe_grunt",
+          "RightSide": "stage1_grunt",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -331,7 +335,7 @@
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
-      "Animation": "enemies_axe_grunt_die_r",
+      "Animation": "stage1_enemies_grunt_death_r",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,
@@ -366,7 +370,16 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": []
+      "CacheType": "nocache",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -434,6 +447,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -510,6 +524,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -586,6 +601,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -662,6 +678,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "actor_type",
@@ -738,6 +755,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "actor_animation",
@@ -814,6 +832,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -890,6 +909,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -966,6 +986,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1034,6 +1055,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1110,6 +1132,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "actor_var1",
@@ -1186,6 +1209,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1262,6 +1286,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1330,6 +1355,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1406,6 +1432,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1474,6 +1501,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1550,6 +1578,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1626,6 +1655,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1650,7 +1680,7 @@
       "Expression": "player_pow + 5",
       "Index": "0",
       "Label": "",
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
@@ -1694,6 +1724,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     }
   ]

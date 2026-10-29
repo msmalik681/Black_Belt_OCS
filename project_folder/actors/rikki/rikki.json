@@ -1,0 +1,82 @@
+{
+  "ProjectType": "RetroAnimator",
+  "Animations": {
+    "idle_r": {
+      "FrameData": [
+        {
+          "FrameID": "idle_01",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}"
+          }
+        }
+      ],
+      "Properties": {
+        "SlowFlip": "False"
+      }
+    }
+  },
+  "Frames": {
+    "idle_01": {
+      "Sprites": [
+        {
+          "FramePath": "parts\\idle_legs_03.png",
+          "HandleX": -9,
+          "HandleY": -13,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\idle_legs_04.png",
+          "HandleX": 7,
+          "HandleY": -4,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\idle_legs_02.png",
+          "HandleX": -10,
+          "HandleY": -21,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\idle_legs_01.png",
+          "HandleX": -8,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\idle_body.png",
+          "HandleX": -16,
+          "HandleY": -70,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\head.png",
+          "HandleX": -2,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    }
+  },
+  "Properties": {}
+}

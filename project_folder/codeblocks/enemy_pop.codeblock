@@ -68,6 +68,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -136,6 +137,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -204,6 +206,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -280,6 +283,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "actor_frame",
@@ -356,6 +360,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -432,6 +437,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -510,6 +516,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -586,6 +593,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -654,6 +662,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -722,6 +731,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -790,6 +800,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -858,6 +869,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     }
   ]
