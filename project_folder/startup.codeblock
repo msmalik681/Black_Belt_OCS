@@ -1147,7 +1147,7 @@
         "a": 255
       },
       "Sound": "",
-      "Music": "none",
+      "Music": "black_belt_intro",
       "MusicPos": "0",
       "Platform": "all",
       "VariableType": "Variable",

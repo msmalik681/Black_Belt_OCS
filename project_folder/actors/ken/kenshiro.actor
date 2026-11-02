@@ -11,7 +11,7 @@
     "Up": "",
     "UpRight": "ken_jump_r",
     "Left": "",
-    "Right": "ken_idle_r",
+    "Right": "rikki_idle_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": "ken_duck_r"
@@ -19,12 +19,12 @@
   "Moves": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "",
+    "UpRight": "rikki_jump_r",
     "Left": "",
-    "Right": "ken_walk_r",
+    "Right": "rikki_walk_r",
     "DownLeft": "",
     "Down": "",
-    "DownRight": "ken_jump_r"
+    "DownRight": "rikki_jump_r"
   },
   "Attacks": {
     "UpLeft": "",
@@ -148,7 +148,7 @@
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": "player_land",
+  "DivertPlatformLand": "none",
   "DivertTimer": "player_on_timer",
   "DivertTimerFrames": 0,
   "Vars": [
