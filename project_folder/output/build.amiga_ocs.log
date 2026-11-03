@@ -1,9 +1,9 @@
-Compiled on 02 November 2026 14:30:10
-Version string: SE2026.0.261102.23.33.EX
+Compiled on 03 November 2026 09:44:14
+Version string: SE2026.0.261103.18.20.EX
 
 === Misc ===
-ImageFrames: 252
-ImageFrame Data Size: 10032
+ImageFrames: 256
+ImageFrame Data Size: 10176
 Maps and Asset Bundles Count: 4
 Maps and Asset Bundles Data Size: 0
 Actor Count: 11
@@ -14,10 +14,10 @@ Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 83
-Animations Data Size: 1328
-AnimationFrame Count: 253
-AnimationFrame Data Size: 4048
+Animations Count: 85
+Animations Data Size: 1360
+AnimationFrame Count: 257
+AnimationFrame Data Size: 4112
 Attack Data: 6
 Attack Data Size: 528
 Misc data size: 92
@@ -26,45 +26,49 @@ Misc data size: 92
  Header |   Offset | Size     | Crunch    | Detail
    MC01 |    14050 |    10300 |  NoCrunch | Music data black_belt_intro
    MS01 |    24350 |    39260 |  NoCrunch | Music samples black_belt_intro
-   MC02 |    63610 |     7228 |  NoCrunch | Music data boss_loop
-   MS02 |    70838 |    65538 |  NoCrunch | Music samples boss_loop
-   MC03 |   136376 |    23612 |  NoCrunch | Music data metal_squad
-   MS03 |   159988 |    83268 |  NoCrunch | Music samples metal_squad
+   MC02 |    63610 |    14396 |  NoCrunch | Music data black_belt_stage_1
+   MS02 |    78006 |    39260 |  NoCrunch | Music samples black_belt_stage_1
+   MC03 |   117266 |     7228 |  NoCrunch | Music data boss_loop
+   MS03 |   124494 |    65538 |  NoCrunch | Music samples boss_loop
+   MC04 |   190032 |    23612 |  NoCrunch | Music data metal_squad
+   MS04 |   213644 |    83268 |  NoCrunch | Music samples metal_squad
    PG-1 |      512 |    13538 |  NoCrunch | Plugin: PT Player
-   PL04 |   243256 |     4932 |  NoCrunch | Panel (background color #000)
-   PL01 |   248188 |     2476 |       ZX0 | Panel scorpion_eng_splashscreen
-   PL02 |   250664 |     6196 |  NoCrunch | Panel hud
-   PC02 |   256860 |      702 |  NoCrunch | Panel bobs hud
-   PL03 |   257562 |    47860 |  NoCrunch | Panel title
-   VV00 |   305422 |     1046 |  NoCrunch | Project Variables
-   VC00 |   306468 |    22594 |  NoCrunch | Project virtual machine (codeblocks)
-   MA01 |      420 |       28 |  NoCrunch | Map actor data for stage_1
-   MH01 |   329062 |      848 |  NoCrunch | Header data for map stage_1
-   MD01 |   329910 |     1592 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
-   AB00 |   331502 |   181582 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB02 |   513084 |    85036 |  NoCrunch | Asset bundle 2 (ken_normal)
-   AB03 |   598120 |    99356 |  NoCrunch | Asset bundle 3 (ken_super)
-   AB01 |   697476 |    16492 |  NoCrunch | Asset bundle 1 (stage_1)
-   DB00 |   713968 |    14140 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   728108 |     4508 |  NoCrunch | Project Header
-   PD01 |      448 |        4 |  NoCrunch | Project Custom Collisions
-   PD00 |   732616 |    18470 |  NoCrunch | Project Data
-   VR00 |      452 |        4 |  NoCrunch | Project virtual machine redirects
+   PL04 |   296912 |     4932 |  NoCrunch | Panel (background color #000)
+   PL01 |   301844 |     2476 |       ZX0 | Panel scorpion_eng_splashscreen
+   PL02 |   304320 |     6196 |  NoCrunch | Panel hud
+   PC02 |   310516 |      702 |  NoCrunch | Panel bobs hud
+   PL03 |   311218 |    47860 |  NoCrunch | Panel title
+   VV00 |   359078 |     1046 |  NoCrunch | Project Variables
+   VC00 |   360124 |    22340 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |      452 |       28 |  NoCrunch | Map actor data for stage_1
+   MH01 |   382464 |      848 |  NoCrunch | Header data for map stage_1
+   MD01 |   383312 |     1592 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   AB00 |   384904 |   185742 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB02 |   570646 |    85036 |  NoCrunch | Asset bundle 2 (ken_normal)
+   AB03 |   655682 |    99356 |  NoCrunch | Asset bundle 3 (ken_super)
+   AB01 |   755038 |    16492 |  NoCrunch | Asset bundle 1 (stage_1)
+   DB00 |   771530 |    14876 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   786406 |     4508 |  NoCrunch | Project Header
+   PD01 |      480 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |   790914 |    18710 |  NoCrunch | Project Data
+   VR00 |      484 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-  181582 |   181582 |        | Asset bundle 0 (Core project asset bundle)
+  185742 |   185742 |        | Asset bundle 0 (Core project asset bundle)
    99356 |    99356 |        | Asset bundle 3 (ken_super)
    85036 |    85036 |        | Asset bundle 2 (ken_normal)
    83268 |    83268 |        | Music samples metal_squad
    65538 |    65538 |        | Music samples boss_loop
    47860 |    47860 |        | Panel title
    39260 |    39260 |        | Music samples black_belt_intro
+   39260 |    39260 |        | Music samples black_belt_stage_1
    23612 |    23612 |        | Music data metal_squad
-   22594 |    22594 |        | Project virtual machine (codeblocks)
-   18470 |    18470 |        | Project Data
+   22340 |    22340 |        | Project virtual machine (codeblocks)
+   18710 |    18710 |        | Project Data
    16492 |    16492 |        | Asset bundle 1 (stage_1)
-   14140 |    14140 |        | Misc Data (paths, hurt boxes etc)
+   14876 |    14876 |        | Misc Data (paths, hurt boxes etc)
+   14396 |    14396 |        | Music data black_belt_stage_1
    13538 |    13538 |        | Plugin: PT Player
    10300 |    10300 |        | Music data black_belt_intro
     7228 |     7228 |        | Music data boss_loop
@@ -87,27 +91,27 @@ For chip:
 Map gfx (Panel: title): 47860
 Music sample (metal_squad): 83268
 BP Buffer memory: 115600
-Core sfx/gfx memory: 181581
+Core sfx/gfx memory: 185741
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map data memory: 1592
 Map background memory: 4932
-EXE memory: 196532
-vm memory: 22594
-project memory: 18470
+EXE memory: 196084
+vm memory: 22340
+project memory: 18710
 Music data (metal_squad): 23612
-Misc data memory: 14140
+Misc data memory: 14876
 Plugin: PT Player: 13538
 memory reserved for codeblocks variables: 1046
 memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 551249
-Accounted memory other: 387988
-Accounted memory total: 939237
+Accounted memory chip: 555409
+Accounted memory other: 388262
+Accounted memory total: 943671
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -122,6 +126,7 @@ ken_duck_punch_l
 ken_idle_l
 ken_idle_r
 ken_jump_atk_kick_l
+ken_jump_atk_kick_r
 ken_jump_atk_punch_l
 ken_jump_atk_punch_r
 ken_jump_l
@@ -133,19 +138,23 @@ ken_standing_kick_l
 ken_super_die_l
 ken_super_die_r
 ken_super_duck_kick_l
+ken_super_duck_kick_r
 ken_super_duck_punch_l
 ken_super_duck_punch_r
 ken_super_jump_atk_kick_l
+ken_super_jump_atk_kick_r
 ken_super_jump_atk_punch_l
 ken_super_jump_atk_punch_r
 ken_super_pain_l
 ken_super_punch_l
 ken_super_punch_r
 ken_super_standing_kick_l
+ken_super_standing_kick_r
 ken_transform_power_up_l
 ken_transform_power_up_r
 ken_walk_l
 ken_walk_r
+rikki_jump_kick_l
 rikki_jump_punch_l
 rikki_punch_l
 stage1_enemies_grunt_death_l
@@ -155,7 +164,6 @@ power_up
 
 === Codeblocks by compiled size ===
 load_level: 640
-attack_button_2_kick: 570
 stage_reset: 510
 stage_timer: 500 (Unused?)
 player_bump: 432
@@ -164,6 +172,7 @@ enemy_damage: 376
 pre_startup: 374
 player_land: 342
 do_teleport: 318
+attack_button_2_kick: 316
 flipscreen_smooth: 310 (Unused?)
 player_transform: 306
 startup: 304

@@ -11361,7 +11361,7 @@
       "CodeBlock": "autogen_stage1_enemies_grunt_attack_l_1",
       "CodeBlockLine": 1,
       "MemoryOffset": 16558,
-      "Description": "Set 'eventtag' to '-66'"
+      "Description": "Set 'eventtag' to '-67'"
     },
     {
       "CodeBlock": "autogen_stage1_enemies_grunt_attack_l_1",
@@ -11409,7 +11409,7 @@
       "CodeBlock": "autogen_stage1_enemies_grunt_attack_r_1",
       "CodeBlockLine": 1,
       "MemoryOffset": 16648,
-      "Description": "Set 'eventtag' to '-66'"
+      "Description": "Set 'eventtag' to '-67'"
     },
     {
       "CodeBlock": "autogen_stage1_enemies_grunt_attack_r_1",
@@ -11695,2822 +11695,2714 @@
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 3,
+      "CodeBlockLine": 1,
       "MemoryOffset": 17270,
       "Description": "Set 'fr[0]' to 'projectiles'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 3,
+      "CodeBlockLine": 1,
       "MemoryOffset": 17276,
       "Description": "Set 'fr[1]' to 'camera_x + 304'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 3,
+      "CodeBlockLine": 1,
       "MemoryOffset": 17288,
       "Description": "Set 'fr[2]' to '16 * 4'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 3,
+      "CodeBlockLine": 1,
       "MemoryOffset": 17298,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 2,
       "MemoryOffset": 17306,
       "Description": "Set 'fr[0]' to '12'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 2,
       "MemoryOffset": 17312,
       "Description": "Set 'fr[1]' to 'bird_fly'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 2,
       "MemoryOffset": 17318,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 2,
       "MemoryOffset": 17324,
       "Description": "Set 'fr[3]' to '2'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 2,
       "MemoryOffset": 17330,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 5,
+      "CodeBlockLine": 3,
       "MemoryOffset": 17338,
       "Description": "Set 'fr[0]' to '12'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 5,
+      "CodeBlockLine": 3,
       "MemoryOffset": 17344,
       "Description": "Set 'fr[1]' to 'move_left'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 5,
+      "CodeBlockLine": 3,
       "MemoryOffset": 17350,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 7,
+      "CodeBlockLine": 5,
       "MemoryOffset": 17358,
-      "Description": "If player_animationtag == ken_jump ELSE GOTO 00017436"
+      "Description": "If player_animationtag == rikki_jump ELSE GOTO 00017436"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 8,
+      "CodeBlockLine": 6,
       "MemoryOffset": 17378,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 8,
+      "CodeBlockLine": 6,
       "MemoryOffset": 17384,
-      "Description": "Set 'fr[1]' to 'ken_jump_atk_kick_r'"
+      "Description": "Set 'fr[1]' to 'rikki_jump_kick_r'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 8,
+      "CodeBlockLine": 6,
       "MemoryOffset": 17390,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 8,
+      "CodeBlockLine": 6,
       "MemoryOffset": 17396,
-      "Description": "Set 'fr[3]' to '5'"
+      "Description": "Set 'fr[3]' to '6'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 8,
+      "CodeBlockLine": 6,
       "MemoryOffset": 17402,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 11,
+      "CodeBlockLine": 9,
       "MemoryOffset": 17436,
       "Description": "If player_animationtag == ken_idle OR player_animationtag == ken_walk ELSE GOTO 00017508"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 12,
+      "CodeBlockLine": 10,
       "MemoryOffset": 17476,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 12,
+      "CodeBlockLine": 10,
       "MemoryOffset": 17482,
       "Description": "Set 'fr[1]' to 'ken_standing_kick_r'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 12,
+      "CodeBlockLine": 10,
       "MemoryOffset": 17488,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 12,
+      "CodeBlockLine": 10,
       "MemoryOffset": 17494,
       "Description": "Set 'fr[3]' to '5'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 12,
+      "CodeBlockLine": 10,
       "MemoryOffset": 17500,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 14,
+      "CodeBlockLine": 12,
       "MemoryOffset": 17508,
       "Description": "If player_animationtag == ken_duck ELSE GOTO 00017560"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 15,
+      "CodeBlockLine": 13,
       "MemoryOffset": 17528,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 15,
+      "CodeBlockLine": 13,
       "MemoryOffset": 17534,
       "Description": "Set 'fr[1]' to 'ken_duck_kick_r'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 15,
+      "CodeBlockLine": 13,
       "MemoryOffset": 17540,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 15,
+      "CodeBlockLine": 13,
       "MemoryOffset": 17546,
       "Description": "Set 'fr[3]' to '5'"
     },
     {
       "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 15,
+      "CodeBlockLine": 13,
       "MemoryOffset": 17552,
-      "Description": "Core operation'ActorSetAnimation'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 17560,
-      "Description": "If player_animationtag == ken_super_jump ELSE GOTO 00017638"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 17580,
-      "Description": "Set 'fr[0]' to '4'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 17586,
-      "Description": "Set 'fr[1]' to 'ken_super_jump_atk_kick_r'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 17592,
-      "Description": "Set 'fr[2]' to '0'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 17598,
-      "Description": "Set 'fr[3]' to '6'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 17604,
-      "Description": "Core operation'ActorSetAnimation'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 17638,
-      "Description": "If player_animationtag == ken_super_idle OR player_animationtag == ken_super_walk ELSE GOTO 00017736"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 17678,
-      "Description": "Set 'fr[0]' to '4'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 17684,
-      "Description": "Set 'fr[1]' to 'ken_super_standing_kick_r'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 17690,
-      "Description": "Set 'fr[2]' to '0'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 17696,
-      "Description": "Set 'fr[3]' to '5'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 17702,
-      "Description": "Core operation'ActorSetAnimation'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 17736,
-      "Description": "If player_animationtag == ken_super_duck ELSE GOTO 00017814"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 17756,
-      "Description": "Set 'fr[0]' to '4'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 17762,
-      "Description": "Set 'fr[1]' to 'ken_super_duck_kick_r'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 17768,
-      "Description": "Set 'fr[2]' to '0'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 17774,
-      "Description": "Set 'fr[3]' to '5'"
-    },
-    {
-      "CodeBlock": "attack_button_2_kick",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 17780,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 0,
-      "MemoryOffset": 17840,
+      "MemoryOffset": 17586,
       "Description": "CHECK_DIRECTION"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 2,
-      "MemoryOffset": 17840,
+      "MemoryOffset": 17586,
       "Description": "If actor_lookdir == Look_Right"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 3,
-      "MemoryOffset": 17856,
+      "MemoryOffset": 17602,
       "Description": "Set 'actor_var1' to '1'"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 4,
-      "MemoryOffset": 17866,
-      "Description": "GOTO '00017882'"
+      "MemoryOffset": 17612,
+      "Description": "GOTO '00017628'"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 5,
-      "MemoryOffset": 17872,
+      "MemoryOffset": 17618,
       "Description": "Set 'actor_var1' to '-1'"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 8,
-      "MemoryOffset": 17882,
+      "MemoryOffset": 17628,
       "Description": "If player_lookdir == Look_Right"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 9,
-      "MemoryOffset": 17898,
+      "MemoryOffset": 17644,
       "Description": "Set 'player_var1' to '1'"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 10,
-      "MemoryOffset": 17908,
-      "Description": "GOTO '00017924'"
+      "MemoryOffset": 17654,
+      "Description": "GOTO '00017670'"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 11,
-      "MemoryOffset": 17914,
+      "MemoryOffset": 17660,
       "Description": "Set 'player_var1' to '-1'"
     },
     {
       "CodeBlock": "count_enemies",
       "CodeBlockLine": 0,
-      "MemoryOffset": 17976,
+      "MemoryOffset": 17722,
       "Description": "COUNT_ENEMIES"
     },
     {
       "CodeBlock": "count_enemies",
       "CodeBlockLine": 2,
-      "MemoryOffset": 17976,
+      "MemoryOffset": 17722,
       "Description": "Set 'enemy_count' to 'enemy_count + 1'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 0,
-      "MemoryOffset": 18012,
+      "MemoryOffset": 17758,
       "Description": "ENEMY_AI"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 5,
-      "MemoryOffset": 18012,
+      "MemoryOffset": 17758,
       "Description": "Set 'enemy_range' to 'player_x - actor_x'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18034,
-      "Description": "If enemy_range < 0 ELSE GOTO 00018058"
+      "MemoryOffset": 17780,
+      "Description": "If enemy_range < 0 ELSE GOTO 00017804"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 7,
-      "MemoryOffset": 18046,
+      "MemoryOffset": 17792,
       "Description": "Set 'enemy_range' to 'enemy_range * -1'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 10,
-      "MemoryOffset": 18058,
+      "MemoryOffset": 17804,
       "Description": "If player_x < actor_x"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 11,
-      "MemoryOffset": 18080,
+      "MemoryOffset": 17826,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 11,
-      "MemoryOffset": 18086,
+      "MemoryOffset": 17832,
       "Description": "Set 'fr[1]' to 'move_left'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 11,
-      "MemoryOffset": 18092,
+      "MemoryOffset": 17838,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 12,
-      "MemoryOffset": 18100,
-      "Description": "GOTO '00018126'"
+      "MemoryOffset": 17846,
+      "Description": "GOTO '00017872'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18106,
+      "MemoryOffset": 17852,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18112,
+      "MemoryOffset": 17858,
       "Description": "Set 'fr[1]' to 'move_right'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18118,
+      "MemoryOffset": 17864,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 0,
-      "MemoryOffset": 18152,
+      "MemoryOffset": 17898,
       "Description": "ENEMY_BUMP"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 1,
-      "MemoryOffset": 18152,
-      "Description": "If player_invincable_time > 0 ELSE GOTO 00018190"
+      "MemoryOffset": 17898,
+      "Description": "If player_invincable_time > 0 ELSE GOTO 00017936"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 4,
-      "MemoryOffset": 18190,
+      "MemoryOffset": 17936,
       "Description": "GOSUB TO 'CHECK_DIRECTION'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 5,
-      "MemoryOffset": 18210,
+      "MemoryOffset": 17956,
       "Description": "Set 'actor_var1' to '-70 * actor_var1'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18230,
+      "MemoryOffset": 17976,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18236,
+      "MemoryOffset": 17982,
       "Description": "Set 'fr[1]' to '5'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18242,
+      "MemoryOffset": 17988,
       "Description": "Set 'fr[2]' to 'actor_var1'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18254,
+      "MemoryOffset": 18000,
       "Description": "Set 'fr[3]' to '0'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18260,
+      "MemoryOffset": 18006,
       "Description": "Set 'fr[4]' to '8'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18266,
+      "MemoryOffset": 18012,
       "Description": "Set 'fr[5]' to 'False'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18272,
+      "MemoryOffset": 18018,
       "Description": "Core operation'RefreshActorPush'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 7,
-      "MemoryOffset": 18280,
+      "MemoryOffset": 18026,
       "Description": "Set 'fr[0]' to 'bump'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 7,
-      "MemoryOffset": 18286,
+      "MemoryOffset": 18032,
       "Description": "Set 'fr[1]' to 'Note_D2'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 7,
-      "MemoryOffset": 18292,
+      "MemoryOffset": 18038,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 7,
-      "MemoryOffset": 18298,
+      "MemoryOffset": 18044,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 8,
-      "MemoryOffset": 18306,
+      "MemoryOffset": 18052,
       "Description": "Set 'player_damage' to '-1'"
     },
     {
       "CodeBlock": "enemy_bump",
       "CodeBlockLine": 9,
-      "MemoryOffset": 18312,
+      "MemoryOffset": 18058,
       "Description": "GOTO 'PLAYER_BUMP'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 0,
-      "MemoryOffset": 18344,
+      "MemoryOffset": 18090,
       "Description": "ENEMY_DAMAGE"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 1,
-      "MemoryOffset": 18344,
+      "MemoryOffset": 18090,
       "Description": "GOSUB TO 'CHECK_DIRECTION'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 2,
-      "MemoryOffset": 18364,
+      "MemoryOffset": 18110,
       "Description": "Set 'fr[0]' to 'hit'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 2,
-      "MemoryOffset": 18370,
+      "MemoryOffset": 18116,
       "Description": "Set 'fr[1]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 2,
-      "MemoryOffset": 18376,
+      "MemoryOffset": 18122,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 2,
-      "MemoryOffset": 18382,
+      "MemoryOffset": 18128,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 4,
-      "MemoryOffset": 18390,
-      "Description": "If actor_type == stage1_grunt ELSE GOTO 00018492"
+      "MemoryOffset": 18136,
+      "Description": "If actor_type == stage1_grunt ELSE GOTO 00018238"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 5,
-      "MemoryOffset": 18406,
+      "MemoryOffset": 18152,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 5,
-      "MemoryOffset": 18412,
+      "MemoryOffset": 18158,
       "Description": "Set 'fr[1]' to 'stage1_enemies_grunt_death_r'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 5,
-      "MemoryOffset": 18418,
+      "MemoryOffset": 18164,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 5,
-      "MemoryOffset": 18424,
+      "MemoryOffset": 18170,
       "Description": "Set 'fr[3]' to '5'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 5,
-      "MemoryOffset": 18430,
+      "MemoryOffset": 18176,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18438,
+      "MemoryOffset": 18184,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18444,
+      "MemoryOffset": 18190,
       "Description": "Set 'fr[1]' to '5'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18450,
+      "MemoryOffset": 18196,
       "Description": "Set 'fr[2]' to '-60 * actor_var1'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18466,
+      "MemoryOffset": 18212,
       "Description": "Set 'fr[3]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18472,
+      "MemoryOffset": 18218,
       "Description": "Set 'fr[4]' to '8'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18478,
+      "MemoryOffset": 18224,
       "Description": "Set 'fr[5]' to 'False'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 6,
-      "MemoryOffset": 18484,
+      "MemoryOffset": 18230,
       "Description": "Core operation'RefreshActorPush'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 9,
-      "MemoryOffset": 18492,
-      "Description": "If actor_type == projectiles ELSE GOTO 00018694"
+      "MemoryOffset": 18238,
+      "Description": "If actor_type == projectiles ELSE GOTO 00018440"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 10,
-      "MemoryOffset": 18508,
+      "MemoryOffset": 18254,
       "Description": "If actor_animation == bird_fly"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 11,
-      "MemoryOffset": 18530,
+      "MemoryOffset": 18276,
       "Description": "Set 'fr[0]' to 'head_pop'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 11,
-      "MemoryOffset": 18536,
+      "MemoryOffset": 18282,
       "Description": "Set 'fr[1]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 11,
-      "MemoryOffset": 18542,
+      "MemoryOffset": 18288,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 11,
-      "MemoryOffset": 18548,
+      "MemoryOffset": 18294,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 12,
-      "MemoryOffset": 18556,
+      "MemoryOffset": 18302,
       "Description": "Set 'fr[0]' to 'blood_effect'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 12,
-      "MemoryOffset": 18562,
+      "MemoryOffset": 18308,
       "Description": "Set 'fr[1]' to 'actor_x'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 12,
-      "MemoryOffset": 18574,
+      "MemoryOffset": 18320,
       "Description": "Set 'fr[2]' to 'actor_y'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 12,
-      "MemoryOffset": 18586,
+      "MemoryOffset": 18332,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18594,
+      "MemoryOffset": 18340,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18600,
+      "MemoryOffset": 18346,
       "Description": "Set 'fr[1]' to 'none'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18606,
+      "MemoryOffset": 18352,
       "Description": "Set 'fr[2]' to 'True'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18612,
+      "MemoryOffset": 18358,
       "Description": "Set 'fr[3]' to 'True'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18618,
+      "MemoryOffset": 18364,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 14,
-      "MemoryOffset": 18626,
-      "Description": "GOTO '00018694'"
+      "MemoryOffset": 18372,
+      "Description": "GOTO '00018440'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 15,
-      "MemoryOffset": 18632,
+      "MemoryOffset": 18378,
       "Description": "If actor_var1 == 1"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 16,
-      "MemoryOffset": 18648,
+      "MemoryOffset": 18394,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 16,
-      "MemoryOffset": 18654,
+      "MemoryOffset": 18400,
       "Description": "Set 'fr[1]' to 'move_upleft'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 16,
-      "MemoryOffset": 18660,
+      "MemoryOffset": 18406,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 17,
-      "MemoryOffset": 18668,
-      "Description": "GOTO '00018694'"
+      "MemoryOffset": 18414,
+      "Description": "GOTO '00018440'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 18,
-      "MemoryOffset": 18674,
+      "MemoryOffset": 18420,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 18,
-      "MemoryOffset": 18680,
+      "MemoryOffset": 18426,
       "Description": "Set 'fr[1]' to 'move_upright'"
     },
     {
       "CodeBlock": "enemy_damage",
       "CodeBlockLine": 18,
-      "MemoryOffset": 18686,
+      "MemoryOffset": 18432,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 0,
-      "MemoryOffset": 18720,
+      "MemoryOffset": 18466,
       "Description": "ENEMY_HIT_PLAYER"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 3,
-      "MemoryOffset": 18720,
-      "Description": "If player_invincable_time > 0 ELSE GOTO 00018758"
+      "MemoryOffset": 18466,
+      "Description": "If player_invincable_time > 0 ELSE GOTO 00018504"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 7,
-      "MemoryOffset": 18758,
-      "Description": "If actor_animationtag == stage1_enemies_grunt_walk ELSE GOTO 00018836"
+      "MemoryOffset": 18504,
+      "Description": "If actor_animationtag == stage1_enemies_grunt_walk ELSE GOTO 00018582"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 8,
-      "MemoryOffset": 18778,
+      "MemoryOffset": 18524,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 8,
-      "MemoryOffset": 18784,
+      "MemoryOffset": 18530,
       "Description": "Set 'fr[1]' to 'stage1_enemies_grunt_attack_r'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 8,
-      "MemoryOffset": 18790,
+      "MemoryOffset": 18536,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 8,
-      "MemoryOffset": 18796,
+      "MemoryOffset": 18542,
       "Description": "Set 'fr[3]' to '5'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 8,
-      "MemoryOffset": 18802,
+      "MemoryOffset": 18548,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 12,
-      "MemoryOffset": 18836,
-      "Description": "If actor_animationtag == enemies_axegrunt_attack OR projectile_animationtag == enemies_axe_thrown OR projectile_animation == bird_fly ELSE GOTO 00019090"
+      "MemoryOffset": 18582,
+      "Description": "If actor_animationtag == enemies_axegrunt_attack OR projectile_animationtag == enemies_axe_thrown OR projectile_animation == bird_fly ELSE GOTO 00018836"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18898,
+      "MemoryOffset": 18644,
       "Description": "Set 'fr[0]' to 'bump'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18904,
+      "MemoryOffset": 18650,
       "Description": "Set 'fr[1]' to 'Note_D2'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18910,
+      "MemoryOffset": 18656,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 13,
-      "MemoryOffset": 18916,
+      "MemoryOffset": 18662,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 14,
-      "MemoryOffset": 18924,
+      "MemoryOffset": 18670,
       "Description": "Set 'player_damage' to '15'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 15,
-      "MemoryOffset": 18930,
-      "Description": "If projectile_animationtag == enemies_axe_thrown ELSE GOTO 00019058"
+      "MemoryOffset": 18676,
+      "Description": "If projectile_animationtag == enemies_axe_thrown ELSE GOTO 00018804"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 16,
-      "MemoryOffset": 18950,
+      "MemoryOffset": 18696,
       "Description": "If projectile_animation == enemies_axe_thrown_l"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 17,
-      "MemoryOffset": 18972,
+      "MemoryOffset": 18718,
       "Description": "Set 'fr[0]' to '8'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 17,
-      "MemoryOffset": 18978,
+      "MemoryOffset": 18724,
       "Description": "Set 'fr[1]' to 'move_downright'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 17,
-      "MemoryOffset": 18984,
+      "MemoryOffset": 18730,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 18,
-      "MemoryOffset": 18992,
+      "MemoryOffset": 18738,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 18,
-      "MemoryOffset": 18998,
+      "MemoryOffset": 18744,
       "Description": "Set 'fr[1]' to 'look_right'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 18,
-      "MemoryOffset": 19004,
+      "MemoryOffset": 18750,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 19,
-      "MemoryOffset": 19012,
-      "Description": "GOTO '00019058'"
+      "MemoryOffset": 18758,
+      "Description": "GOTO '00018804'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 20,
-      "MemoryOffset": 19018,
+      "MemoryOffset": 18764,
       "Description": "Set 'fr[0]' to '8'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 20,
-      "MemoryOffset": 19024,
+      "MemoryOffset": 18770,
       "Description": "Set 'fr[1]' to 'move_downleft'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 20,
-      "MemoryOffset": 19030,
+      "MemoryOffset": 18776,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 21,
-      "MemoryOffset": 19038,
+      "MemoryOffset": 18784,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 21,
-      "MemoryOffset": 19044,
+      "MemoryOffset": 18790,
       "Description": "Set 'fr[1]' to 'look_left'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 21,
-      "MemoryOffset": 19050,
+      "MemoryOffset": 18796,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "enemy_hit_player",
       "CodeBlockLine": 24,
-      "MemoryOffset": 19058,
+      "MemoryOffset": 18804,
       "Description": "GOTO 'PLAYER_BUMP'"
     },
     {
       "CodeBlock": "enemy_land",
       "CodeBlockLine": 0,
-      "MemoryOffset": 19116,
+      "MemoryOffset": 18862,
       "Description": "ENEMY_LAND"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 0,
-      "MemoryOffset": 19142,
+      "MemoryOffset": 18888,
       "Description": "ENEMY_POP"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 1,
-      "MemoryOffset": 19142,
+      "MemoryOffset": 18888,
       "Description": "GOSUB TO 'CHECK_DIRECTION'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 3,
-      "MemoryOffset": 19162,
+      "MemoryOffset": 18908,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 3,
-      "MemoryOffset": 19168,
+      "MemoryOffset": 18914,
       "Description": "Set 'fr[1]' to '0'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 3,
-      "MemoryOffset": 19174,
+      "MemoryOffset": 18920,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 3,
-      "MemoryOffset": 19180,
+      "MemoryOffset": 18926,
       "Description": "Set 'fr[3]' to '0'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 3,
-      "MemoryOffset": 19186,
+      "MemoryOffset": 18932,
       "Description": "Set 'fr[4]' to '8'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 3,
-      "MemoryOffset": 19192,
+      "MemoryOffset": 18938,
       "Description": "Set 'fr[5]' to 'False'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 3,
-      "MemoryOffset": 19198,
+      "MemoryOffset": 18944,
       "Description": "Core operation'RefreshActorPush'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 4,
-      "MemoryOffset": 19206,
+      "MemoryOffset": 18952,
       "Description": "If actor_frame == 1"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 5,
-      "MemoryOffset": 19232,
+      "MemoryOffset": 18978,
       "Description": "Set 'actor_var1' to '-7 * actor_var1'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 6,
-      "MemoryOffset": 19252,
+      "MemoryOffset": 18998,
       "Description": "Set 'fr[0]' to 'blood_effect'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 6,
-      "MemoryOffset": 19258,
+      "MemoryOffset": 19004,
       "Description": "Set 'fr[1]' to 'actor_x + actor_var1'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 6,
-      "MemoryOffset": 19280,
+      "MemoryOffset": 19026,
       "Description": "Set 'fr[2]' to 'actor_y - 61'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 6,
-      "MemoryOffset": 19296,
+      "MemoryOffset": 19042,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 7,
-      "MemoryOffset": 19304,
+      "MemoryOffset": 19050,
       "Description": "Set 'fr[0]' to '12'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 7,
-      "MemoryOffset": 19310,
+      "MemoryOffset": 19056,
       "Description": "Set 'fr[1]' to 'bloodburst_head'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 7,
-      "MemoryOffset": 19316,
+      "MemoryOffset": 19062,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 7,
-      "MemoryOffset": 19322,
+      "MemoryOffset": 19068,
       "Description": "Set 'fr[3]' to '1'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 7,
-      "MemoryOffset": 19328,
+      "MemoryOffset": 19074,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 8,
-      "MemoryOffset": 19336,
-      "Description": "GOTO '00019416'"
+      "MemoryOffset": 19082,
+      "Description": "GOTO '00019162'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 9,
-      "MemoryOffset": 19342,
+      "MemoryOffset": 19088,
       "Description": "Set 'fr[0]' to 'blood_effect'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 9,
-      "MemoryOffset": 19348,
+      "MemoryOffset": 19094,
       "Description": "Set 'fr[1]' to 'actor_x'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 9,
-      "MemoryOffset": 19360,
+      "MemoryOffset": 19106,
       "Description": "Set 'fr[2]' to 'actor_y - 38'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 9,
-      "MemoryOffset": 19376,
+      "MemoryOffset": 19122,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 10,
-      "MemoryOffset": 19384,
+      "MemoryOffset": 19130,
       "Description": "Set 'fr[0]' to '12'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 10,
-      "MemoryOffset": 19390,
+      "MemoryOffset": 19136,
       "Description": "Set 'fr[1]' to 'bloodburst_body'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 10,
-      "MemoryOffset": 19396,
+      "MemoryOffset": 19142,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 10,
-      "MemoryOffset": 19402,
+      "MemoryOffset": 19148,
       "Description": "Set 'fr[3]' to '1'"
     },
     {
       "CodeBlock": "enemy_pop",
       "CodeBlockLine": 10,
-      "MemoryOffset": 19408,
+      "MemoryOffset": 19154,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 0,
-      "MemoryOffset": 19442,
+      "MemoryOffset": 19188,
       "Description": "ENEMY_SPECIAL"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 2,
-      "MemoryOffset": 19442,
+      "MemoryOffset": 19188,
       "Description": "GOSUB TO 'CHECK_DIRECTION'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 4,
-      "MemoryOffset": 19462,
-      "Description": "If actor_animationtag == enemies_axegrunt_throw ELSE GOTO 00019618"
+      "MemoryOffset": 19208,
+      "Description": "If actor_animationtag == enemies_axegrunt_throw ELSE GOTO 00019364"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 5,
-      "MemoryOffset": 19482,
+      "MemoryOffset": 19228,
       "Description": "Set 'actor_var1' to '33 * actor_var1'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 6,
-      "MemoryOffset": 19502,
+      "MemoryOffset": 19248,
       "Description": "Set 'fr[0]' to 'projectiles'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 6,
-      "MemoryOffset": 19508,
+      "MemoryOffset": 19254,
       "Description": "Set 'fr[1]' to 'actor_x + actor_var1'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 6,
-      "MemoryOffset": 19530,
+      "MemoryOffset": 19276,
       "Description": "Set 'fr[2]' to 'actor_y - 38'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 6,
-      "MemoryOffset": 19546,
+      "MemoryOffset": 19292,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 7,
-      "MemoryOffset": 19554,
+      "MemoryOffset": 19300,
       "Description": "If Test bit LookMask_Right on actor_lookdir"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 8,
-      "MemoryOffset": 19572,
+      "MemoryOffset": 19318,
       "Description": "Set 'fr[0]' to '12'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 8,
-      "MemoryOffset": 19578,
+      "MemoryOffset": 19324,
       "Description": "Set 'fr[1]' to 'move_right'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 8,
-      "MemoryOffset": 19584,
+      "MemoryOffset": 19330,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 9,
-      "MemoryOffset": 19592,
-      "Description": "GOTO '00019618'"
+      "MemoryOffset": 19338,
+      "Description": "GOTO '00019364'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 10,
-      "MemoryOffset": 19598,
+      "MemoryOffset": 19344,
       "Description": "Set 'fr[0]' to '12'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 10,
-      "MemoryOffset": 19604,
+      "MemoryOffset": 19350,
       "Description": "Set 'fr[1]' to 'move_left'"
     },
     {
       "CodeBlock": "enemy_special",
       "CodeBlockLine": 10,
-      "MemoryOffset": 19610,
+      "MemoryOffset": 19356,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 0,
-      "MemoryOffset": 19644,
+      "MemoryOffset": 19390,
       "Description": "PLAYER_BUMP"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 2,
-      "MemoryOffset": 19644,
-      "Description": "If player_invincable_time > 0 ELSE GOTO 00019682"
+      "MemoryOffset": 19390,
+      "Description": "If player_invincable_time > 0 ELSE GOTO 00019428"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 19682,
-      "Description": "If actor_type == axe_grunt ELSE GOTO 00019718"
+      "MemoryOffset": 19428,
+      "Description": "If actor_type == axe_grunt ELSE GOTO 00019464"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 7,
-      "MemoryOffset": 19698,
+      "MemoryOffset": 19444,
       "Description": "GOSUB TO 'PLAYER_LOOK_AT_ME'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 9,
-      "MemoryOffset": 19718,
+      "MemoryOffset": 19464,
       "Description": "GOSUB TO 'CHECK_DIRECTION'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 10,
-      "MemoryOffset": 19738,
+      "MemoryOffset": 19484,
       "Description": "If player_type == kenshiro OR player_type == kenshiro_ducking"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 11,
-      "MemoryOffset": 19770,
+      "MemoryOffset": 19516,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 11,
-      "MemoryOffset": 19776,
+      "MemoryOffset": 19522,
       "Description": "Set 'fr[1]' to 'kenshiro'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 11,
-      "MemoryOffset": 19782,
+      "MemoryOffset": 19528,
       "Description": "Set 'fr[2]' to 'True'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 11,
-      "MemoryOffset": 19788,
+      "MemoryOffset": 19534,
       "Description": "Set 'fr[3]' to 'True'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 11,
-      "MemoryOffset": 19794,
+      "MemoryOffset": 19540,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 12,
-      "MemoryOffset": 19802,
+      "MemoryOffset": 19548,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 12,
-      "MemoryOffset": 19808,
+      "MemoryOffset": 19554,
       "Description": "Set 'fr[1]' to 'ken_pain_r'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 12,
-      "MemoryOffset": 19814,
+      "MemoryOffset": 19560,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 12,
-      "MemoryOffset": 19820,
+      "MemoryOffset": 19566,
       "Description": "Set 'fr[3]' to '5'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 12,
-      "MemoryOffset": 19826,
+      "MemoryOffset": 19572,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 13,
-      "MemoryOffset": 19834,
-      "Description": "GOTO '00019904'"
+      "MemoryOffset": 19580,
+      "Description": "GOTO '00019650'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 14,
-      "MemoryOffset": 19840,
+      "MemoryOffset": 19586,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 14,
-      "MemoryOffset": 19846,
+      "MemoryOffset": 19592,
       "Description": "Set 'fr[1]' to 'super_kenshiro'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 14,
-      "MemoryOffset": 19852,
+      "MemoryOffset": 19598,
       "Description": "Set 'fr[2]' to 'True'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 14,
-      "MemoryOffset": 19858,
+      "MemoryOffset": 19604,
       "Description": "Set 'fr[3]' to 'True'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 14,
-      "MemoryOffset": 19864,
+      "MemoryOffset": 19610,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 15,
-      "MemoryOffset": 19872,
+      "MemoryOffset": 19618,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 15,
-      "MemoryOffset": 19878,
+      "MemoryOffset": 19624,
       "Description": "Set 'fr[1]' to 'ken_super_pain_r'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 15,
-      "MemoryOffset": 19884,
+      "MemoryOffset": 19630,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 15,
-      "MemoryOffset": 19890,
+      "MemoryOffset": 19636,
       "Description": "Set 'fr[3]' to '5'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 15,
-      "MemoryOffset": 19896,
+      "MemoryOffset": 19642,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 17,
-      "MemoryOffset": 19904,
+      "MemoryOffset": 19650,
       "Description": "Set 'player_var1' to '-20 * player_var1'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 18,
-      "MemoryOffset": 19924,
+      "MemoryOffset": 19670,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 18,
-      "MemoryOffset": 19930,
+      "MemoryOffset": 19676,
       "Description": "Set 'fr[1]' to '5'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 18,
-      "MemoryOffset": 19936,
+      "MemoryOffset": 19682,
       "Description": "Set 'fr[2]' to 'player_var1'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 18,
-      "MemoryOffset": 19948,
+      "MemoryOffset": 19694,
       "Description": "Set 'fr[3]' to '0'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 18,
-      "MemoryOffset": 19954,
+      "MemoryOffset": 19700,
       "Description": "Set 'fr[4]' to '8'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 18,
-      "MemoryOffset": 19960,
+      "MemoryOffset": 19706,
       "Description": "Set 'fr[5]' to 'False'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 18,
-      "MemoryOffset": 19966,
+      "MemoryOffset": 19712,
       "Description": "Core operation'RefreshActorPush'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 19,
-      "MemoryOffset": 19974,
-      "Description": "If player_damage > 0 ELSE GOTO 00020050"
+      "MemoryOffset": 19720,
+      "Description": "If player_damage > 0 ELSE GOTO 00019796"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 20,
-      "MemoryOffset": 19986,
+      "MemoryOffset": 19732,
       "Description": "Set 'player_hp' to 'player_hp - player_damage'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 20,
-      "MemoryOffset": 19998,
+      "MemoryOffset": 19744,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 20,
-      "MemoryOffset": 20004,
+      "MemoryOffset": 19750,
       "Description": "Set 'fr[1]' to '1'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 20,
-      "MemoryOffset": 20010,
+      "MemoryOffset": 19756,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 21,
-      "MemoryOffset": 20018,
+      "MemoryOffset": 19764,
       "Description": "Set 'player_damage' to '-1'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 22,
-      "MemoryOffset": 20024,
+      "MemoryOffset": 19770,
       "Description": "Set 'player_invincable_time' to '2'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 23,
-      "MemoryOffset": 20030,
+      "MemoryOffset": 19776,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 23,
-      "MemoryOffset": 20036,
+      "MemoryOffset": 19782,
       "Description": "Set 'fr[1]' to 'RenderMode_Blink'"
     },
     {
       "CodeBlock": "player_bump",
       "CodeBlockLine": 23,
-      "MemoryOffset": 20042,
+      "MemoryOffset": 19788,
       "Description": "Core operation'RefreshActorRenderMode'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 0,
-      "MemoryOffset": 20076,
+      "MemoryOffset": 19822,
       "Description": "PLAYER_LAND"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 2,
-      "MemoryOffset": 20076,
-      "Description": "If actor_animationtag == ken_die OR actor_animationtag == ken_super_die ELSE GOTO 00020142"
+      "MemoryOffset": 19822,
+      "Description": "If actor_animationtag == ken_die OR actor_animationtag == ken_super_die ELSE GOTO 00019888"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 6,
-      "MemoryOffset": 20142,
-      "Description": "If player_type == kenshiro OR player_type == kenshiro_ducking OR player_type == rikki ELSE GOTO 00020392"
+      "MemoryOffset": 19888,
+      "Description": "If player_type == kenshiro OR player_type == kenshiro_ducking OR player_type == rikki ELSE GOTO 00020138"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 7,
-      "MemoryOffset": 20190,
-      "Description": "If player_hp < 1 ELSE GOTO 00020280"
+      "MemoryOffset": 19936,
+      "Description": "If player_hp < 1 ELSE GOTO 00020026"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 8,
-      "MemoryOffset": 20202,
+      "MemoryOffset": 19948,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 8,
-      "MemoryOffset": 20208,
+      "MemoryOffset": 19954,
       "Description": "Set 'fr[1]' to 'ken_die_r'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 8,
-      "MemoryOffset": 20214,
+      "MemoryOffset": 19960,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 8,
-      "MemoryOffset": 20220,
+      "MemoryOffset": 19966,
       "Description": "Set 'fr[3]' to '5'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 8,
-      "MemoryOffset": 20226,
+      "MemoryOffset": 19972,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 9,
-      "MemoryOffset": 20234,
+      "MemoryOffset": 19980,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 9,
-      "MemoryOffset": 20240,
+      "MemoryOffset": 19986,
       "Description": "Set 'fr[1]' to 'RenderMode_Default'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 9,
-      "MemoryOffset": 20246,
+      "MemoryOffset": 19992,
       "Description": "Core operation'RefreshActorRenderMode'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 12,
-      "MemoryOffset": 20280,
+      "MemoryOffset": 20026,
       "Description": "If player_isonplatform == True"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 13,
-      "MemoryOffset": 20296,
+      "MemoryOffset": 20042,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 13,
-      "MemoryOffset": 20302,
+      "MemoryOffset": 20048,
       "Description": "Set 'fr[1]' to 'rikki_idle_r'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 13,
-      "MemoryOffset": 20308,
+      "MemoryOffset": 20054,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 13,
-      "MemoryOffset": 20314,
+      "MemoryOffset": 20060,
       "Description": "Set 'fr[3]' to '5'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 13,
-      "MemoryOffset": 20320,
+      "MemoryOffset": 20066,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 14,
-      "MemoryOffset": 20328,
-      "Description": "GOTO '00020366'"
+      "MemoryOffset": 20074,
+      "Description": "GOTO '00020112'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20334,
+      "MemoryOffset": 20080,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20340,
+      "MemoryOffset": 20086,
       "Description": "Set 'fr[1]' to 'rikki_jump_r'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20346,
+      "MemoryOffset": 20092,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20352,
+      "MemoryOffset": 20098,
       "Description": "Set 'fr[3]' to '5'"
     },
     {
       "CodeBlock": "player_land",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20358,
+      "MemoryOffset": 20104,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_look_at_me",
       "CodeBlockLine": 0,
-      "MemoryOffset": 20418,
+      "MemoryOffset": 20164,
       "Description": "PLAYER_LOOK_AT_ME"
     },
     {
       "CodeBlock": "player_look_at_me",
       "CodeBlockLine": 2,
-      "MemoryOffset": 20418,
+      "MemoryOffset": 20164,
       "Description": "If actor_x >= player_x"
     },
     {
       "CodeBlock": "player_look_at_me",
       "CodeBlockLine": 3,
-      "MemoryOffset": 20440,
+      "MemoryOffset": 20186,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_look_at_me",
       "CodeBlockLine": 3,
-      "MemoryOffset": 20446,
+      "MemoryOffset": 20192,
       "Description": "Set 'fr[1]' to 'look_right'"
     },
     {
       "CodeBlock": "player_look_at_me",
       "CodeBlockLine": 3,
-      "MemoryOffset": 20452,
+      "MemoryOffset": 20198,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "player_look_at_me",
       "CodeBlockLine": 4,
-      "MemoryOffset": 20460,
-      "Description": "GOTO '00020486'"
+      "MemoryOffset": 20206,
+      "Description": "GOTO '00020232'"
     },
     {
       "CodeBlock": "player_look_at_me",
       "CodeBlockLine": 5,
-      "MemoryOffset": 20466,
+      "MemoryOffset": 20212,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_look_at_me",
       "CodeBlockLine": 5,
-      "MemoryOffset": 20472,
+      "MemoryOffset": 20218,
       "Description": "Set 'fr[1]' to 'look_left'"
     },
     {
       "CodeBlock": "player_look_at_me",
       "CodeBlockLine": 5,
-      "MemoryOffset": 20478,
+      "MemoryOffset": 20224,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 0,
-      "MemoryOffset": 20512,
+      "MemoryOffset": 20258,
       "Description": "PLAYER_ON_TIMER"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 2,
-      "MemoryOffset": 20512,
-      "Description": "If player_isonplatform == True ELSE GOTO 00020710"
+      "MemoryOffset": 20258,
+      "Description": "If player_isonplatform == True ELSE GOTO 00020456"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 6,
-      "MemoryOffset": 20528,
+      "MemoryOffset": 20274,
       "Description": "If player_controly > 0"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 7,
-      "MemoryOffset": 20548,
-      "Description": "If actor_animationtag == ken_idle OR actor_animationtag == ken_walk ELSE GOTO 00020636"
+      "MemoryOffset": 20294,
+      "Description": "If actor_animationtag == ken_idle OR actor_animationtag == ken_walk ELSE GOTO 00020382"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 8,
-      "MemoryOffset": 20588,
-      "Description": "If player_type != kenshiro_ducking ELSE GOTO 00020636"
+      "MemoryOffset": 20334,
+      "Description": "If player_type != kenshiro_ducking ELSE GOTO 00020382"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 9,
-      "MemoryOffset": 20604,
+      "MemoryOffset": 20350,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 9,
-      "MemoryOffset": 20610,
+      "MemoryOffset": 20356,
       "Description": "Set 'fr[1]' to 'kenshiro_ducking'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 9,
-      "MemoryOffset": 20616,
+      "MemoryOffset": 20362,
       "Description": "Set 'fr[2]' to 'True'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 9,
-      "MemoryOffset": 20622,
+      "MemoryOffset": 20368,
       "Description": "Set 'fr[3]' to 'True'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 9,
-      "MemoryOffset": 20628,
+      "MemoryOffset": 20374,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 12,
-      "MemoryOffset": 20636,
-      "Description": "GOTO '00020710'"
+      "MemoryOffset": 20382,
+      "Description": "GOTO '00020456'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 13,
-      "MemoryOffset": 20642,
-      "Description": "If actor_animationtag == ken_duck ELSE GOTO 00020710"
+      "MemoryOffset": 20388,
+      "Description": "If actor_animationtag == ken_duck ELSE GOTO 00020456"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 14,
-      "MemoryOffset": 20662,
-      "Description": "If player_type != kenshiro ELSE GOTO 00020710"
+      "MemoryOffset": 20408,
+      "Description": "If player_type != kenshiro ELSE GOTO 00020456"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20678,
+      "MemoryOffset": 20424,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20684,
+      "MemoryOffset": 20430,
       "Description": "Set 'fr[1]' to 'kenshiro'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20690,
+      "MemoryOffset": 20436,
       "Description": "Set 'fr[2]' to 'True'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20696,
+      "MemoryOffset": 20442,
       "Description": "Set 'fr[3]' to 'True'"
     },
     {
       "CodeBlock": "player_on_timer",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20702,
+      "MemoryOffset": 20448,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 0,
-      "MemoryOffset": 20736,
+      "MemoryOffset": 20482,
       "Description": "PLAYER_TRANSFORM"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 3,
-      "MemoryOffset": 20736,
-      "Description": "If player_frame == 0 ELSE GOTO 00020808"
+      "MemoryOffset": 20482,
+      "Description": "If player_frame == 0 ELSE GOTO 00020554"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 5,
-      "MemoryOffset": 20762,
+      "MemoryOffset": 20508,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 5,
-      "MemoryOffset": 20768,
+      "MemoryOffset": 20514,
       "Description": "Set 'fr[1]' to 'ken_normal'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 5,
-      "MemoryOffset": 20774,
+      "MemoryOffset": 20520,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 8,
-      "MemoryOffset": 20808,
-      "Description": "If player_frame == 5 ELSE GOTO 00021016"
+      "MemoryOffset": 20554,
+      "Description": "If player_frame == 5 ELSE GOTO 00020762"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 10,
-      "MemoryOffset": 20834,
+      "MemoryOffset": 20580,
       "Description": "Set 'fr[0]' to '7'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 10,
-      "MemoryOffset": 20840,
+      "MemoryOffset": 20586,
       "Description": "Set 'fr[1]' to 'ken_super'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 10,
-      "MemoryOffset": 20846,
+      "MemoryOffset": 20592,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 10,
-      "MemoryOffset": 20854,
+      "MemoryOffset": 20600,
       "Description": "Core operation'OSOff'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 10,
-      "MemoryOffset": 20862,
+      "MemoryOffset": 20608,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 10,
-      "MemoryOffset": 20868,
+      "MemoryOffset": 20614,
       "Description": "Set 'fr[1]' to 'super_kenshiro'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 10,
-      "MemoryOffset": 20874,
+      "MemoryOffset": 20620,
       "Description": "Set 'fr[2]' to 'True'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 10,
-      "MemoryOffset": 20880,
+      "MemoryOffset": 20626,
       "Description": "Set 'fr[3]' to 'True'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 10,
-      "MemoryOffset": 20886,
+      "MemoryOffset": 20632,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 11,
-      "MemoryOffset": 20894,
-      "Description": "If player_hp != 100 ELSE GOTO 00020932"
+      "MemoryOffset": 20640,
+      "Description": "If player_hp != 100 ELSE GOTO 00020678"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 11,
-      "MemoryOffset": 20906,
+      "MemoryOffset": 20652,
       "Description": "Set 'player_hp' to '100'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 11,
-      "MemoryOffset": 20912,
+      "MemoryOffset": 20658,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 11,
-      "MemoryOffset": 20918,
+      "MemoryOffset": 20664,
       "Description": "Set 'fr[1]' to '1'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 11,
-      "MemoryOffset": 20924,
+      "MemoryOffset": 20670,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 13,
-      "MemoryOffset": 20958,
+      "MemoryOffset": 20704,
       "Description": "If player_animationtag == ken_transform_power_up"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 14,
-      "MemoryOffset": 20978,
-      "Description": "GOTO '00021016'"
+      "MemoryOffset": 20724,
+      "Description": "GOTO '00020762'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20984,
+      "MemoryOffset": 20730,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20990,
+      "MemoryOffset": 20736,
       "Description": "Set 'fr[1]' to 'kenshiro'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 15,
-      "MemoryOffset": 20996,
+      "MemoryOffset": 20742,
       "Description": "Set 'fr[2]' to 'True'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 15,
-      "MemoryOffset": 21002,
+      "MemoryOffset": 20748,
       "Description": "Set 'fr[3]' to 'True'"
     },
     {
       "CodeBlock": "player_transform",
       "CodeBlockLine": 15,
-      "MemoryOffset": 21008,
+      "MemoryOffset": 20754,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 0,
-      "MemoryOffset": 21042,
+      "MemoryOffset": 20788,
       "Description": "STAGE_RESET"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 2,
-      "MemoryOffset": 21042,
-      "Description": "If player_animationtag == ken_die OR player_animationtag == ken_super_die ELSE GOTO 00021246"
+      "MemoryOffset": 20788,
+      "Description": "If player_animationtag == ken_die OR player_animationtag == ken_super_die ELSE GOTO 00020992"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 3,
-      "MemoryOffset": 21082,
+      "MemoryOffset": 20828,
       "Description": "If player_frame == 0"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 4,
-      "MemoryOffset": 21108,
+      "MemoryOffset": 20854,
       "Description": "Core operation'MusicStop'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 5,
-      "MemoryOffset": 21116,
+      "MemoryOffset": 20862,
       "Description": "Set 'fr[0]' to 'player_die'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 5,
-      "MemoryOffset": 21122,
+      "MemoryOffset": 20868,
       "Description": "Set 'fr[1]' to 'Note_D2'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 5,
-      "MemoryOffset": 21128,
+      "MemoryOffset": 20874,
       "Description": "Set 'fr[2]' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 5,
-      "MemoryOffset": 21134,
+      "MemoryOffset": 20880,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 7,
-      "MemoryOffset": 21168,
-      "Description": "GOTO '00021246'"
+      "MemoryOffset": 20914,
+      "Description": "GOTO '00020992'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 7,
-      "MemoryOffset": 21174,
-      "Description": "If player_frame == 2 ELSE GOTO 00021246"
+      "MemoryOffset": 20920,
+      "Description": "If player_frame == 2 ELSE GOTO 00020992"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 8,
-      "MemoryOffset": 21200,
+      "MemoryOffset": 20946,
       "Description": "GOSUB TO 'FADEOUT'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 13,
-      "MemoryOffset": 21246,
-      "Description": "If player_type == super_kenshiro ELSE GOTO 00021310"
+      "MemoryOffset": 20992,
+      "Description": "If player_type == super_kenshiro ELSE GOTO 00021056"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 16,
-      "MemoryOffset": 21262,
+      "MemoryOffset": 21008,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 16,
-      "MemoryOffset": 21268,
+      "MemoryOffset": 21014,
       "Description": "Set 'fr[1]' to 'ken_super'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 16,
-      "MemoryOffset": 21274,
+      "MemoryOffset": 21020,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 16,
-      "MemoryOffset": 21282,
+      "MemoryOffset": 21028,
       "Description": "Set 'fr[0]' to '7'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 16,
-      "MemoryOffset": 21288,
+      "MemoryOffset": 21034,
       "Description": "Set 'fr[1]' to 'ken_normal'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 16,
-      "MemoryOffset": 21294,
+      "MemoryOffset": 21040,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 16,
-      "MemoryOffset": 21302,
+      "MemoryOffset": 21048,
       "Description": "Core operation'OSOff'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 17,
-      "MemoryOffset": 21310,
+      "MemoryOffset": 21056,
       "Description": "GOSUB TO 'DESTROY_ALL_ACTORS'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 18,
-      "MemoryOffset": 21330,
-      "Description": "If player_hp != 100 ELSE GOTO 00021368"
+      "MemoryOffset": 21076,
+      "Description": "If player_hp != 100 ELSE GOTO 00021114"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 18,
-      "MemoryOffset": 21342,
+      "MemoryOffset": 21088,
       "Description": "Set 'player_hp' to '100'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 18,
-      "MemoryOffset": 21348,
+      "MemoryOffset": 21094,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 18,
-      "MemoryOffset": 21354,
+      "MemoryOffset": 21100,
       "Description": "Set 'fr[1]' to '1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 18,
-      "MemoryOffset": 21360,
+      "MemoryOffset": 21106,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 19,
-      "MemoryOffset": 21368,
-      "Description": "If player_pow != 0 ELSE GOTO 00021406"
+      "MemoryOffset": 21114,
+      "Description": "If player_pow != 0 ELSE GOTO 00021152"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 19,
-      "MemoryOffset": 21380,
+      "MemoryOffset": 21126,
       "Description": "Set 'player_pow' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 19,
-      "MemoryOffset": 21386,
+      "MemoryOffset": 21132,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 19,
-      "MemoryOffset": 21392,
+      "MemoryOffset": 21138,
       "Description": "Set 'fr[1]' to '2'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 19,
-      "MemoryOffset": 21398,
+      "MemoryOffset": 21144,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 20,
-      "MemoryOffset": 21406,
+      "MemoryOffset": 21152,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 20,
-      "MemoryOffset": 21412,
+      "MemoryOffset": 21158,
       "Description": "Set 'fr[1]' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 20,
-      "MemoryOffset": 21418,
+      "MemoryOffset": 21164,
       "Description": "Set 'fr[2]' to 'True'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 20,
-      "MemoryOffset": 21424,
+      "MemoryOffset": 21170,
       "Description": "Core operation'CameraWarp'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 21,
-      "MemoryOffset": 21432,
+      "MemoryOffset": 21178,
       "Description": "Set 'fr[0]' to 'kenshiro'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 21,
-      "MemoryOffset": 21438,
+      "MemoryOffset": 21184,
       "Description": "Set 'fr[1]' to '16'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 21,
-      "MemoryOffset": 21444,
+      "MemoryOffset": 21190,
       "Description": "Set 'fr[2]' to '16 * 11 - 1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 21,
-      "MemoryOffset": 21456,
+      "MemoryOffset": 21202,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 22,
-      "MemoryOffset": 21464,
+      "MemoryOffset": 21210,
       "Description": "Set 'camera_follow' to '15'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 22,
-      "MemoryOffset": 21470,
+      "MemoryOffset": 21216,
       "Description": "Set 'maxcamerafollow' to '8 | 0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 23,
-      "MemoryOffset": 21480,
+      "MemoryOffset": 21226,
       "Description": "Set 'musicpos' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 23,
-      "MemoryOffset": 21486,
+      "MemoryOffset": 21232,
       "Description": "GOSUB TO 'LOAD_MUSIC'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 24,
-      "MemoryOffset": 21506,
+      "MemoryOffset": 21252,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 0,
-      "MemoryOffset": 21552,
+      "MemoryOffset": 21298,
       "Description": "STAGE_TIMER"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 3,
-      "MemoryOffset": 21552,
+      "MemoryOffset": 21298,
       "Description": "Yield on  timer to  next line"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 6,
-      "MemoryOffset": 21572,
-      "Description": "If player_invincable_time > 0 ELSE GOTO 00021626"
+      "MemoryOffset": 21318,
+      "Description": "If player_invincable_time > 0 ELSE GOTO 00021372"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 7,
-      "MemoryOffset": 21584,
+      "MemoryOffset": 21330,
       "Description": "Set 'player_invincable_time' to 'player_invincable_time - 1'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 8,
-      "MemoryOffset": 21594,
-      "Description": "If player_invincable_time < 1 ELSE GOTO 00021626"
+      "MemoryOffset": 21340,
+      "Description": "If player_invincable_time < 1 ELSE GOTO 00021372"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 9,
-      "MemoryOffset": 21606,
+      "MemoryOffset": 21352,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 9,
-      "MemoryOffset": 21612,
+      "MemoryOffset": 21358,
       "Description": "Set 'fr[1]' to 'RenderMode_Default'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 9,
-      "MemoryOffset": 21618,
+      "MemoryOffset": 21364,
       "Description": "Core operation'RefreshActorRenderMode'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 14,
-      "MemoryOffset": 21626,
-      "Description": "If player_x > mapwidth - 160 OR player_x < 160 ELSE GOTO 00021692"
+      "MemoryOffset": 21372,
+      "Description": "If player_x > mapwidth - 160 OR player_x < 160 ELSE GOTO 00021438"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 18,
-      "MemoryOffset": 21692,
+      "MemoryOffset": 21438,
       "Description": "Set 'enemy_count' to '1'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 19,
-      "MemoryOffset": 21698,
+      "MemoryOffset": 21444,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 19,
-      "MemoryOffset": 21710,
-      "Description": "If actor_type == axe_grunt OR actor_type == projectiles ELSE GOTO 00021748"
+      "MemoryOffset": 21456,
+      "Description": "If actor_type == axe_grunt OR actor_type == projectiles ELSE GOTO 00021494"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 19,
-      "MemoryOffset": 21742,
+      "MemoryOffset": 21488,
       "Description": "GOTO 'COUNT_ENEMIES'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 21,
-      "MemoryOffset": 21750,
-      "Description": "If enemy_count < 4 ELSE GOTO 00022026"
+      "MemoryOffset": 21496,
+      "Description": "If enemy_count < 4 ELSE GOTO 00021772"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 23,
-      "MemoryOffset": 21762,
+      "MemoryOffset": 21508,
       "Description": "Set 'fr[0]' to '3'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 23,
-      "MemoryOffset": 21768,
+      "MemoryOffset": 21514,
       "Description": "Set 'fr[1]' to '1'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 23,
-      "MemoryOffset": 21774,
+      "MemoryOffset": 21520,
       "Description": "Core operation'RollDice'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 23,
-      "MemoryOffset": 21782,
+      "MemoryOffset": 21528,
       "Description": "Set 'enemy_count' to 'dice'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 24,
-      "MemoryOffset": 21788,
+      "MemoryOffset": 21534,
       "Description": "If enemy_count == 1"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 25,
-      "MemoryOffset": 21800,
+      "MemoryOffset": 21546,
       "Description": "Set 'enemy_spawn' to 'projectiles'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 26,
-      "MemoryOffset": 21806,
-      "Description": "GOTO '00021818'"
+      "MemoryOffset": 21552,
+      "Description": "GOTO '00021564'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 27,
-      "MemoryOffset": 21812,
+      "MemoryOffset": 21558,
       "Description": "Set 'enemy_spawn' to 'axe_grunt'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 31,
-      "MemoryOffset": 21818,
+      "MemoryOffset": 21564,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 31,
-      "MemoryOffset": 21824,
+      "MemoryOffset": 21570,
       "Description": "Set 'fr[1]' to '1'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 31,
-      "MemoryOffset": 21830,
+      "MemoryOffset": 21576,
       "Description": "Core operation'RollDice'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 31,
-      "MemoryOffset": 21838,
+      "MemoryOffset": 21584,
       "Description": "Set 'enemy_count' to 'dice'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 32,
-      "MemoryOffset": 21844,
+      "MemoryOffset": 21590,
       "Description": "If enemy_count == 1"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 33,
-      "MemoryOffset": 21856,
+      "MemoryOffset": 21602,
       "Description": "Set 'fr[0]' to 'enemy_spawn'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 33,
-      "MemoryOffset": 21862,
+      "MemoryOffset": 21608,
       "Description": "Set 'fr[1]' to 'camera_x + 304'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 33,
-      "MemoryOffset": 21874,
+      "MemoryOffset": 21620,
       "Description": "Set 'fr[2]' to '16 * 9'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 33,
-      "MemoryOffset": 21884,
+      "MemoryOffset": 21630,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 34,
-      "MemoryOffset": 21892,
+      "MemoryOffset": 21638,
       "Description": "Set 'fr[0]' to '12'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 34,
-      "MemoryOffset": 21898,
+      "MemoryOffset": 21644,
       "Description": "Set 'fr[1]' to 'look_left'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 34,
-      "MemoryOffset": 21904,
+      "MemoryOffset": 21650,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 35,
-      "MemoryOffset": 21912,
+      "MemoryOffset": 21658,
       "Description": "Set 'fr[0]' to '12'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 35,
-      "MemoryOffset": 21918,
+      "MemoryOffset": 21664,
       "Description": "Set 'fr[1]' to 'move_left'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 35,
-      "MemoryOffset": 21924,
+      "MemoryOffset": 21670,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 36,
-      "MemoryOffset": 21932,
-      "Description": "GOTO '00022000'"
+      "MemoryOffset": 21678,
+      "Description": "GOTO '00021746'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 36,
-      "MemoryOffset": 21938,
-      "Description": "If enemy_count == 4 ELSE GOTO 00022000"
+      "MemoryOffset": 21684,
+      "Description": "If enemy_count == 4 ELSE GOTO 00021746"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 37,
-      "MemoryOffset": 21950,
+      "MemoryOffset": 21696,
       "Description": "Set 'fr[0]' to 'enemy_spawn'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 37,
-      "MemoryOffset": 21956,
+      "MemoryOffset": 21702,
       "Description": "Set 'fr[1]' to 'camera_x'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 37,
-      "MemoryOffset": 21962,
+      "MemoryOffset": 21708,
       "Description": "Set 'fr[2]' to '16 * 9'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 37,
-      "MemoryOffset": 21972,
+      "MemoryOffset": 21718,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 38,
-      "MemoryOffset": 21980,
+      "MemoryOffset": 21726,
       "Description": "Set 'fr[0]' to '12'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 38,
-      "MemoryOffset": 21986,
+      "MemoryOffset": 21732,
       "Description": "Set 'fr[1]' to 'move_right'"
     },
     {
       "CodeBlock": "stage_timer",
       "CodeBlockLine": 38,
-      "MemoryOffset": 21992,
+      "MemoryOffset": 21738,
       "Description": "Core operation'ActorSetLookdir'"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 0,
-      "MemoryOffset": 22052,
+      "MemoryOffset": 21798,
       "Description": "STAGE_TIMER_DEBUG"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 4,
-      "MemoryOffset": 22052,
+      "MemoryOffset": 21798,
       "Description": "Set 'fps_count' to 'fps_count + 1'"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 6,
-      "MemoryOffset": 22062,
-      "Description": "If frame_countdown <= -50 ELSE GOTO 00022126"
+      "MemoryOffset": 21808,
+      "Description": "If frame_countdown <= -50 ELSE GOTO 00021872"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 7,
-      "MemoryOffset": 22074,
-      "Description": "If fps_display != fps_count ELSE GOTO 00022114"
+      "MemoryOffset": 21820,
+      "Description": "If fps_display != fps_count ELSE GOTO 00021860"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 7,
-      "MemoryOffset": 22088,
+      "MemoryOffset": 21834,
       "Description": "Set 'fps_display' to 'fps_count'"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 7,
-      "MemoryOffset": 22094,
+      "MemoryOffset": 21840,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 7,
-      "MemoryOffset": 22100,
+      "MemoryOffset": 21846,
       "Description": "Set 'fr[1]' to '4'"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 7,
-      "MemoryOffset": 22106,
+      "MemoryOffset": 21852,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 8,
-      "MemoryOffset": 22114,
+      "MemoryOffset": 21860,
       "Description": "Set 'fps_count' to '0'"
     },
     {
       "CodeBlock": "stage_timer_debug",
       "CodeBlockLine": 9,
-      "MemoryOffset": 22120,
+      "MemoryOffset": 21866,
       "Description": "Set 'frame_countdown' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 22152,
+      "MemoryOffset": 21898,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 10,
-      "MemoryOffset": 22152,
+      "MemoryOffset": 21898,
       "Description": "GOSUB TO 'DESTROY_ALL_ACTORS'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22172,
+      "MemoryOffset": 21918,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22178,
+      "MemoryOffset": 21924,
       "Description": "Set 'fr[1]' to 'ken_super'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22184,
+      "MemoryOffset": 21930,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22192,
+      "MemoryOffset": 21938,
       "Description": "Set 'fr[0]' to '7'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22198,
+      "MemoryOffset": 21944,
       "Description": "Set 'fr[1]' to 'ken_normal'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22204,
+      "MemoryOffset": 21950,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22212,
+      "MemoryOffset": 21958,
       "Description": "Core operation'OSOff'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22220,
+      "MemoryOffset": 21966,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22228,
+      "MemoryOffset": 21974,
       "Description": "GOSUB TO 'UNLOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22248,
+      "MemoryOffset": 21994,
       "Description": "Set 'newvalue' to 'none'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 22254,
+      "MemoryOffset": 22000,
       "Description": "GOSUB TO 'LOAD_PANEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 15,
-      "MemoryOffset": 22274,
+      "MemoryOffset": 22020,
       "Description": "Set 'newvalue' to '192'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 15,
-      "MemoryOffset": 22280,
+      "MemoryOffset": 22026,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 15,
-      "MemoryOffset": 22300,
+      "MemoryOffset": 22046,
       "Description": "Core operation'RegenerateScreen'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 20,
-      "MemoryOffset": 22308,
+      "MemoryOffset": 22054,
       "Description": "Set 'control1jumpcontrols' to '20481'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22314,
+      "MemoryOffset": 22060,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22322,
+      "MemoryOffset": 22068,
       "Description": "Set 'panel_bottom' to 'hud'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22328,
+      "MemoryOffset": 22074,
       "Description": "Set 'fr[0]' to 'stage_1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22334,
+      "MemoryOffset": 22080,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22342,
+      "MemoryOffset": 22088,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22350,
+      "MemoryOffset": 22096,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22370,
+      "MemoryOffset": 22116,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22376,
+      "MemoryOffset": 22122,
       "Description": "Set 'fr[0]' to '60'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22382,
+      "MemoryOffset": 22128,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22390,
+      "MemoryOffset": 22136,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 22410,
+      "MemoryOffset": 22156,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "test",
       "CodeBlockLine": 0,
-      "MemoryOffset": 22456,
+      "MemoryOffset": 22202,
       "Description": "TEST"
     },
     {
       "CodeBlock": "test",
       "CodeBlockLine": 1,
-      "MemoryOffset": 22456,
+      "MemoryOffset": 22202,
       "Description": "Set 'fr[0]' to 'copyof_axe_grunt'"
     },
     {
       "CodeBlock": "test",
       "CodeBlockLine": 1,
-      "MemoryOffset": 22462,
+      "MemoryOffset": 22208,
       "Description": "Set 'fr[1]' to 'player_x + 100'"
     },
     {
       "CodeBlock": "test",
       "CodeBlockLine": 1,
-      "MemoryOffset": 22478,
+      "MemoryOffset": 22224,
       "Description": "Set 'fr[2]' to 'player_y'"
     },
     {
       "CodeBlock": "test",
       "CodeBlockLine": 1,
-      "MemoryOffset": 22490,
+      "MemoryOffset": 22236,
       "Description": "Core operation'PixelSpawn'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 0,
-      "MemoryOffset": 22524,
+      "MemoryOffset": 22270,
       "Description": "AUTOGEN_UNLOADALLASSETBUNDLES"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 2,
-      "MemoryOffset": 22524,
+      "MemoryOffset": 22270,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 2,
-      "MemoryOffset": 22530,
+      "MemoryOffset": 22276,
       "Description": "Set 'fr[1]' to 'ken_normal'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 2,
-      "MemoryOffset": 22536,
+      "MemoryOffset": 22282,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 2,
-      "MemoryOffset": 22544,
+      "MemoryOffset": 22290,
       "Description": "Set 'fr[0]' to '4'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 2,
-      "MemoryOffset": 22550,
+      "MemoryOffset": 22296,
       "Description": "Set 'fr[1]' to 'ken_super'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 2,
-      "MemoryOffset": 22556,
+      "MemoryOffset": 22302,
       "Description": "Core operation'AssetBundle'"
     }
   ],
@@ -14523,8 +14415,9 @@
   "Music": {
     "0": "No music loaded",
     "1": "black_belt_intro",
-    "2": "boss_loop",
-    "3": "metal_squad"
+    "2": "black_belt_stage_1",
+    "3": "boss_loop",
+    "4": "metal_squad"
   },
   "Panels": {
     "0": "No panels displayed",
@@ -14625,20 +14518,22 @@
     "66": "ken_walk_r",
     "67": "rikki_idle_l",
     "68": "rikki_idle_r",
-    "69": "rikki_jump_punch_l",
-    "70": "rikki_jump_punch_r",
-    "71": "rikki_jump_l",
-    "72": "rikki_jump_r",
-    "73": "rikki_punch_l",
-    "74": "rikki_punch_r",
-    "75": "rikki_walk_l",
-    "76": "rikki_walk_r",
-    "77": "stage1_enemies_grunt_attack_l",
-    "78": "stage1_enemies_grunt_attack_r",
-    "79": "stage1_enemies_grunt_death_l",
-    "80": "stage1_enemies_grunt_death_r",
-    "81": "stage1_enemies_grunt_walk_l",
-    "82": "stage1_enemies_grunt_walk_r"
+    "69": "rikki_jump_kick_l",
+    "70": "rikki_jump_kick_r",
+    "71": "rikki_jump_punch_l",
+    "72": "rikki_jump_punch_r",
+    "73": "rikki_jump_l",
+    "74": "rikki_jump_r",
+    "75": "rikki_punch_l",
+    "76": "rikki_punch_r",
+    "77": "rikki_walk_l",
+    "78": "rikki_walk_r",
+    "79": "stage1_enemies_grunt_attack_l",
+    "80": "stage1_enemies_grunt_attack_r",
+    "81": "stage1_enemies_grunt_death_l",
+    "82": "stage1_enemies_grunt_death_r",
+    "83": "stage1_enemies_grunt_walk_l",
+    "84": "stage1_enemies_grunt_walk_r"
   },
   "Blocks": {
     "0": "Destroyed block",

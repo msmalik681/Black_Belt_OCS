@@ -109,6 +109,29 @@
         "PreventMovement": "False",
         "OnFinish": "player_land"
       }
+    },
+    "jump_kick_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump_kick_01",
+          "Duration": 5,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}"
+          }
+        },
+        {
+          "FrameID": "jump_kick_01",
+          "Duration": 5,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}"
+          }
+        }
+      ],
+      "Properties": {
+        "SlowFlip": "False",
+        "PreventAttack": "True",
+        "PreventJump": "True"
+      }
     }
   },
   "Frames": {
@@ -392,6 +415,15 @@
           "NoFlip": false,
           "RenderMode": 0,
           "Properties": {}
+        },
+        {
+          "FramePath": "parts\\punch_01_001.png",
+          "HandleX": 13,
+          "HandleY": -66,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
         }
       ],
       "ColRects": {},
@@ -490,6 +522,15 @@
           "NoFlip": false,
           "RenderMode": 0,
           "Properties": {}
+        },
+        {
+          "FramePath": "parts\\punch_01_001.png",
+          "HandleX": 10,
+          "HandleY": -68,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
         }
       ],
       "ColRects": {},
@@ -556,6 +597,78 @@
           "Properties": {
             "HurtBox": "False"
           }
+        }
+      },
+      "Properties": {}
+    },
+    "jump_kick_01": {
+      "Sprites": [
+        {
+          "FramePath": "parts\\head.png",
+          "HandleX": -6,
+          "HandleY": -78,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\punch_01_01.png",
+          "HandleX": -22,
+          "HandleY": -71,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\jump_kick_01.png",
+          "HandleX": 10,
+          "HandleY": -67,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\jump_kick_02.png",
+          "HandleX": 24,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\jump_kick_03.png",
+          "HandleX": -21,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\jump_kick_04.png",
+          "HandleX": 19,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "kick": {
+          "Value": 0,
+          "X": 8,
+          "Y": -48,
+          "Width": 43,
+          "Height": 27,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
         }
       },
       "Properties": {}
