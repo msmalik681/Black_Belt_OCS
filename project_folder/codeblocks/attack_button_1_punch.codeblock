@@ -142,7 +142,7 @@
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "ken_jump",
+          "RightSide": "rikki_jump",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -181,7 +181,7 @@
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
-      "Animation": "ken_jump_atk_punch_r",
+      "Animation": "rikki_jump_punch_r",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,

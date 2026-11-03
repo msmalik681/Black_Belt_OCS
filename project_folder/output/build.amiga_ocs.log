@@ -1,9 +1,9 @@
-Compiled on 02 November 2026 13:07:01
+Compiled on 02 November 2026 14:30:10
 Version string: SE2026.0.261102.23.33.EX
 
 === Misc ===
-ImageFrames: 248
-ImageFrame Data Size: 9888
+ImageFrames: 252
+ImageFrame Data Size: 10032
 Maps and Asset Bundles Count: 4
 Maps and Asset Bundles Data Size: 0
 Actor Count: 11
@@ -14,10 +14,10 @@ Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 81
-Animations Data Size: 1296
-AnimationFrame Count: 249
-AnimationFrame Data Size: 3984
+Animations Count: 83
+Animations Data Size: 1328
+AnimationFrame Count: 253
+AnimationFrame Data Size: 4048
 Attack Data: 6
 Attack Data Size: 528
 Misc data size: 92
@@ -37,23 +37,23 @@ Misc data size: 92
    PC02 |   256860 |      702 |  NoCrunch | Panel bobs hud
    PL03 |   257562 |    47860 |  NoCrunch | Panel title
    VV00 |   305422 |     1046 |  NoCrunch | Project Variables
-   VC00 |   306468 |    22362 |  NoCrunch | Project virtual machine (codeblocks)
+   VC00 |   306468 |    22594 |  NoCrunch | Project virtual machine (codeblocks)
    MA01 |      420 |       28 |  NoCrunch | Map actor data for stage_1
-   MH01 |   328830 |      848 |  NoCrunch | Header data for map stage_1
-   MD01 |   329678 |     1592 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
-   AB00 |   331270 |   178002 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB02 |   509272 |    85036 |  NoCrunch | Asset bundle 2 (ken_normal)
-   AB03 |   594308 |    99356 |  NoCrunch | Asset bundle 3 (ken_super)
-   AB01 |   693664 |    16492 |  NoCrunch | Asset bundle 1 (stage_1)
-   DB00 |   710156 |    13584 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   723740 |     4508 |  NoCrunch | Project Header
+   MH01 |   329062 |      848 |  NoCrunch | Header data for map stage_1
+   MD01 |   329910 |     1592 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   AB00 |   331502 |   181582 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB02 |   513084 |    85036 |  NoCrunch | Asset bundle 2 (ken_normal)
+   AB03 |   598120 |    99356 |  NoCrunch | Asset bundle 3 (ken_super)
+   AB01 |   697476 |    16492 |  NoCrunch | Asset bundle 1 (stage_1)
+   DB00 |   713968 |    14140 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   728108 |     4508 |  NoCrunch | Project Header
    PD01 |      448 |        4 |  NoCrunch | Project Custom Collisions
-   PD00 |   728248 |    18230 |  NoCrunch | Project Data
+   PD00 |   732616 |    18470 |  NoCrunch | Project Data
    VR00 |      452 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-  178002 |   178002 |        | Asset bundle 0 (Core project asset bundle)
+  181582 |   181582 |        | Asset bundle 0 (Core project asset bundle)
    99356 |    99356 |        | Asset bundle 3 (ken_super)
    85036 |    85036 |        | Asset bundle 2 (ken_normal)
    83268 |    83268 |        | Music samples metal_squad
@@ -61,10 +61,10 @@ Misc data size: 92
    47860 |    47860 |        | Panel title
    39260 |    39260 |        | Music samples black_belt_intro
    23612 |    23612 |        | Music data metal_squad
-   22362 |    22362 |        | Project virtual machine (codeblocks)
-   18230 |    18230 |        | Project Data
+   22594 |    22594 |        | Project virtual machine (codeblocks)
+   18470 |    18470 |        | Project Data
    16492 |    16492 |        | Asset bundle 1 (stage_1)
-   13584 |    13584 |        | Misc Data (paths, hurt boxes etc)
+   14140 |    14140 |        | Misc Data (paths, hurt boxes etc)
    13538 |    13538 |        | Plugin: PT Player
    10300 |    10300 |        | Music data black_belt_intro
     7228 |     7228 |        | Music data boss_loop
@@ -87,7 +87,7 @@ For chip:
 Map gfx (Panel: title): 47860
 Music sample (metal_squad): 83268
 BP Buffer memory: 115600
-Core sfx/gfx memory: 178001
+Core sfx/gfx memory: 181581
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -95,19 +95,19 @@ For other:
 Map data memory: 1592
 Map background memory: 4932
 EXE memory: 196532
-vm memory: 22362
-project memory: 18230
+vm memory: 22594
+project memory: 18470
 Music data (metal_squad): 23612
-Misc data memory: 13584
+Misc data memory: 14140
 Plugin: PT Player: 13538
 memory reserved for codeblocks variables: 1046
 memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 547669
-Accounted memory other: 386960
-Accounted memory total: 934629
+Accounted memory chip: 551249
+Accounted memory other: 387988
+Accounted memory total: 939237
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -123,6 +123,7 @@ ken_idle_l
 ken_idle_r
 ken_jump_atk_kick_l
 ken_jump_atk_punch_l
+ken_jump_atk_punch_r
 ken_jump_l
 ken_jump_r
 ken_pain_l
@@ -145,6 +146,7 @@ ken_transform_power_up_l
 ken_transform_power_up_r
 ken_walk_l
 ken_walk_r
+rikki_jump_punch_l
 rikki_punch_l
 stage1_enemies_grunt_death_l
 
@@ -223,7 +225,9 @@ autogen_ken_super_jump_atk_kick_l_0: 116
 autogen_ken_super_jump_atk_kick_r_0: 116
 autogen_ken_super_jump_atk_punch_l_3: 116
 autogen_ken_super_standing_kick_l_3: 116
+autogen_rikki_jump_punch_l_1: 116
 autogen_rikki_punch_l_1: 116
+autogen_rikki_punch_r_1: 116
 autogen_ken_duck_kick_r_1: 114
 autogen_ken_duck_punch_r_1: 114
 autogen_ken_jump_atk_punch_r_1: 114
@@ -231,7 +235,7 @@ autogen_ken_punch_r_1: 114
 autogen_ken_super_duck_punch_r_3: 114
 autogen_ken_super_jump_atk_punch_r_3: 114
 autogen_ken_super_standing_kick_r_3: 114
-autogen_rikki_punch_r_1: 114
+autogen_rikki_jump_punch_r_1: 114
 anim_force_left: 108 (Unused?)
 anim_force_right: 108 (Unused?)
 fadein: 108
