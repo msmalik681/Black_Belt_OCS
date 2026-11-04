@@ -132,6 +132,21 @@
         "PreventAttack": "True",
         "PreventJump": "True"
       }
+    },
+    "kick_r": {
+      "FrameData": [
+        {
+          "FrameID": "kick_01",
+          "Duration": 8,
+          "Properties": {}
+        },
+        {
+          "FrameID": "kick_02",
+          "Duration": 8,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
     }
   },
   "Frames": {
@@ -471,10 +486,10 @@
       "ColRects": {
         "punch": {
           "Value": 0,
-          "X": 9,
+          "X": 23,
           "Y": -75,
-          "Width": 40,
-          "Height": 17,
+          "Width": 25,
+          "Height": 13,
           "ColorR": 0,
           "ColorG": 0,
           "ColorB": 255,
@@ -661,10 +676,142 @@
       "ColRects": {
         "kick": {
           "Value": 0,
-          "X": 8,
-          "Y": -48,
-          "Width": 43,
-          "Height": 27,
+          "X": 22,
+          "Y": -41,
+          "Width": 29,
+          "Height": 19,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "kick_01": {
+      "Sprites": [
+        {
+          "FramePath": "parts\\head.png",
+          "HandleX": -17,
+          "HandleY": -74,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\kick_01_05.png",
+          "HandleX": -11,
+          "HandleY": -9,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\kick_02_01.png",
+          "HandleX": -25,
+          "HandleY": -68,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\kick_02_02.png",
+          "HandleX": -26,
+          "HandleY": -58,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\kick_02_03.png",
+          "HandleX": -8,
+          "HandleY": -41,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\kick_02_04.png",
+          "HandleX": -7,
+          "HandleY": -30,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "kick_02": {
+      "Sprites": [
+        {
+          "FramePath": "parts\\kick_01_05.png",
+          "HandleX": -11,
+          "HandleY": -9,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\kick_01_04.png",
+          "HandleX": -9,
+          "HandleY": -37,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\kick_01_03.png",
+          "HandleX": 18,
+          "HandleY": -60,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\kick_01_02.png",
+          "HandleX": -30,
+          "HandleY": -57,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\kick_01_01.png",
+          "HandleX": -27,
+          "HandleY": -66,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "parts\\head.png",
+          "HandleX": -22,
+          "HandleY": -71,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "kick": {
+          "Value": 0,
+          "X": 20,
+          "Y": -60,
+          "Width": 26,
+          "Height": 13,
           "ColorR": 0,
           "ColorG": 0,
           "ColorB": 255,
