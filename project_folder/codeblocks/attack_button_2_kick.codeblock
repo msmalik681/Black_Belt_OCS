@@ -24,7 +24,7 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
@@ -95,7 +95,7 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
@@ -164,7 +164,7 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
@@ -360,7 +360,7 @@
     {
       "Values": {
         "AutoFlip": "True",
-        "LoopAnimation": "True"
+        "LoopAnimation": "False"
       },
       "DataVersion": 7,
       "Category": "Player",
@@ -654,14 +654,14 @@
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "ken_idle",
+          "RightSide": "rikki_idle",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "ken_walk",
+          "RightSide": "rikki_walk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -700,7 +700,7 @@
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
-      "Animation": "ken_standing_kick_r",
+      "Animation": "rikki_kick_r",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,

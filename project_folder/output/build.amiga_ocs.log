@@ -1,9 +1,9 @@
-Compiled on 03 November 2026 09:44:14
+Compiled on 04 November 2026 15:22:31
 Version string: SE2026.0.261103.18.20.EX
 
 === Misc ===
-ImageFrames: 256
-ImageFrame Data Size: 10176
+ImageFrames: 262
+ImageFrame Data Size: 10392
 Maps and Asset Bundles Count: 4
 Maps and Asset Bundles Data Size: 0
 Actor Count: 11
@@ -14,10 +14,10 @@ Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 85
-Animations Data Size: 1360
-AnimationFrame Count: 257
-AnimationFrame Data Size: 4112
+Animations Count: 87
+Animations Data Size: 1392
+AnimationFrame Count: 263
+AnimationFrame Data Size: 4208
 Attack Data: 6
 Attack Data Size: 528
 Misc data size: 92
@@ -39,23 +39,23 @@ Misc data size: 92
    PC02 |   310516 |      702 |  NoCrunch | Panel bobs hud
    PL03 |   311218 |    47860 |  NoCrunch | Panel title
    VV00 |   359078 |     1046 |  NoCrunch | Project Variables
-   VC00 |   360124 |    22340 |  NoCrunch | Project virtual machine (codeblocks)
+   VC00 |   360124 |    22896 |  NoCrunch | Project virtual machine (codeblocks)
    MA01 |      452 |       28 |  NoCrunch | Map actor data for stage_1
-   MH01 |   382464 |      848 |  NoCrunch | Header data for map stage_1
-   MD01 |   383312 |     1592 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
-   AB00 |   384904 |   185742 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB02 |   570646 |    85036 |  NoCrunch | Asset bundle 2 (ken_normal)
-   AB03 |   655682 |    99356 |  NoCrunch | Asset bundle 3 (ken_super)
-   AB01 |   755038 |    16492 |  NoCrunch | Asset bundle 1 (stage_1)
-   DB00 |   771530 |    14876 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   786406 |     4508 |  NoCrunch | Project Header
+   MH01 |   383020 |      848 |  NoCrunch | Header data for map stage_1
+   MD01 |   383868 |     1592 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   AB00 |   385460 |   195642 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB02 |   581102 |    85036 |  NoCrunch | Asset bundle 2 (ken_normal)
+   AB03 |   666138 |    99356 |  NoCrunch | Asset bundle 3 (ken_super)
+   AB01 |   765494 |    16492 |  NoCrunch | Asset bundle 1 (stage_1)
+   DB00 |   781986 |    15980 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   797966 |     4508 |  NoCrunch | Project Header
    PD01 |      480 |        4 |  NoCrunch | Project Custom Collisions
-   PD00 |   790914 |    18710 |  NoCrunch | Project Data
+   PD00 |   802474 |    19054 |  NoCrunch | Project Data
    VR00 |      484 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-  185742 |   185742 |        | Asset bundle 0 (Core project asset bundle)
+  195642 |   195642 |        | Asset bundle 0 (Core project asset bundle)
    99356 |    99356 |        | Asset bundle 3 (ken_super)
    85036 |    85036 |        | Asset bundle 2 (ken_normal)
    83268 |    83268 |        | Music samples metal_squad
@@ -64,10 +64,10 @@ Misc data size: 92
    39260 |    39260 |        | Music samples black_belt_intro
    39260 |    39260 |        | Music samples black_belt_stage_1
    23612 |    23612 |        | Music data metal_squad
-   22340 |    22340 |        | Project virtual machine (codeblocks)
-   18710 |    18710 |        | Project Data
+   22896 |    22896 |        | Project virtual machine (codeblocks)
+   19054 |    19054 |        | Project Data
    16492 |    16492 |        | Asset bundle 1 (stage_1)
-   14876 |    14876 |        | Misc Data (paths, hurt boxes etc)
+   15980 |    15980 |        | Misc Data (paths, hurt boxes etc)
    14396 |    14396 |        | Music data black_belt_stage_1
    13538 |    13538 |        | Plugin: PT Player
    10300 |    10300 |        | Music data black_belt_intro
@@ -91,7 +91,7 @@ For chip:
 Map gfx (Panel: title): 47860
 Music sample (metal_squad): 83268
 BP Buffer memory: 115600
-Core sfx/gfx memory: 185741
+Core sfx/gfx memory: 195641
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -99,19 +99,19 @@ For other:
 Map data memory: 1592
 Map background memory: 4932
 EXE memory: 196084
-vm memory: 22340
-project memory: 18710
+vm memory: 22896
+project memory: 19054
 Music data (metal_squad): 23612
-Misc data memory: 14876
+Misc data memory: 15980
 Plugin: PT Player: 13538
 memory reserved for codeblocks variables: 1046
 memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 555409
-Accounted memory other: 388262
-Accounted memory total: 943671
+Accounted memory chip: 565309
+Accounted memory other: 390266
+Accounted memory total: 955575
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -135,6 +135,7 @@ ken_pain_l
 ken_punch_l
 ken_punch_r
 ken_standing_kick_l
+ken_standing_kick_r
 ken_super_die_l
 ken_super_die_r
 ken_super_duck_kick_l
@@ -156,6 +157,7 @@ ken_walk_l
 ken_walk_r
 rikki_jump_kick_l
 rikki_jump_punch_l
+rikki_kick_l
 rikki_punch_l
 stage1_enemies_grunt_death_l
 
@@ -172,7 +174,6 @@ enemy_damage: 376
 pre_startup: 374
 player_land: 342
 do_teleport: 318
-attack_button_2_kick: 316
 flipscreen_smooth: 310 (Unused?)
 player_transform: 306
 startup: 304
@@ -186,6 +187,7 @@ autogen_ken_super_punch_l_1: 244
 autogen_ken_super_punch_r_1: 244
 autogen_ken_super_standing_kick_l_5: 244
 autogen_ken_super_standing_kick_r_5: 244
+attack_button_2_kick: 228
 player_on_timer: 224
 block_find: 210 (Unused?)
 set_yresolution: 206
@@ -234,7 +236,11 @@ autogen_ken_super_jump_atk_kick_l_0: 116
 autogen_ken_super_jump_atk_kick_r_0: 116
 autogen_ken_super_jump_atk_punch_l_3: 116
 autogen_ken_super_standing_kick_l_3: 116
+autogen_rikki_jump_kick_l_0: 116
+autogen_rikki_jump_kick_r_0: 116
 autogen_rikki_jump_punch_l_1: 116
+autogen_rikki_kick_l_1: 116
+autogen_rikki_kick_r_1: 116
 autogen_rikki_punch_l_1: 116
 autogen_rikki_punch_r_1: 116
 autogen_ken_duck_kick_r_1: 114
@@ -280,6 +286,8 @@ autogen_ken_super_jump_atk_kick_l_1: 90
 autogen_ken_super_jump_atk_kick_r_1: 90
 autogen_ken_transform_power_up_l_4: 90
 autogen_ken_transform_power_up_r_4: 90
+autogen_rikki_jump_kick_l_1: 90
+autogen_rikki_jump_kick_r_1: 90
 autogen_stage1_enemies_grunt_attack_l_1: 90
 autogen_stage1_enemies_grunt_walk_l_0: 90
 autogen_stage1_enemies_grunt_attack_r_1: 88
