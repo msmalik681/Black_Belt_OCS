@@ -1,23 +1,23 @@
-Compiled on 06 November 2026 16:21:43
+Compiled on 06 November 2026 17:46:23
 Version string: SE2026.0.261103.18.20.EX
 
 === Misc ===
-ImageFrames: 172
-ImageFrame Data Size: 6288
+ImageFrames: 175
+ImageFrame Data Size: 6396
 Maps and Asset Bundles Count: 3
 Maps and Asset Bundles Data Size: 0
-Actor Count: 8
-Actor Data Size: 1440
+Actor Count: 10
+Actor Data Size: 1800
 Block Count: 3
 Block Data Size: 204
 Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 65
-Animations Data Size: 1040
-AnimationFrame Count: 173
-AnimationFrame Data Size: 2768
+Animations Count: 67
+Animations Data Size: 1072
+AnimationFrame Count: 176
+AnimationFrame Data Size: 2816
 Attack Data: 6
 Attack Data Size: 528
 Misc data size: 92
@@ -39,18 +39,18 @@ Misc data size: 92
    PC02 |   310516 |      702 |  NoCrunch | Panel bobs hud
    PL03 |   311218 |    47860 |  NoCrunch | Panel title
    VV00 |   359078 |     1046 |  NoCrunch | Project Variables
-   VC00 |   360124 |    17534 |  NoCrunch | Project virtual machine (codeblocks)
-   MA01 |      436 |       28 |  NoCrunch | Map actor data for stage_1
-   MH01 |   377658 |      848 |  NoCrunch | Header data for map stage_1
-   MD01 |   378506 |     1592 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
-   AB00 |   380098 |   175976 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB02 |   556074 |    85036 |  NoCrunch | Asset bundle 2 (ken_normal)
-   AB01 |   641110 |    16492 |  NoCrunch | Asset bundle 1 (stage_1)
-   DB00 |   657602 |    13352 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   670954 |     4508 |  NoCrunch | Project Header
-   PD01 |      464 |        4 |  NoCrunch | Project Custom Collisions
-   PD00 |   675462 |    12618 |  NoCrunch | Project Data
-   VR00 |      468 |        4 |  NoCrunch | Project virtual machine redirects
+   VC00 |   360124 |    17600 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |   377724 |      140 |  NoCrunch | Map actor data for stage_1
+   MH01 |   377864 |      848 |  NoCrunch | Header data for map stage_1
+   MD01 |   378712 |     1592 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   AB00 |   380304 |   175976 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |   556280 |    21930 |  NoCrunch | Asset bundle 1 (stage_1)
+   AB02 |   578210 |    85036 |  NoCrunch | Asset bundle 2 (ken_normal)
+   DB00 |   663246 |    13352 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   676598 |     4508 |  NoCrunch | Project Header
+   PD01 |      436 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |   681106 |    13166 |  NoCrunch | Project Data
+   VR00 |      440 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
@@ -62,12 +62,12 @@ Misc data size: 92
    39260 |    39260 |        | Music samples black_belt_intro
    39260 |    39260 |        | Music samples black_belt_stage_1
    23612 |    23612 |        | Music data metal_squad
-   17534 |    17534 |        | Project virtual machine (codeblocks)
-   16492 |    16492 |        | Asset bundle 1 (stage_1)
+   21930 |    21930 |        | Asset bundle 1 (stage_1)
+   17600 |    17600 |        | Project virtual machine (codeblocks)
    14396 |    14396 |        | Music data black_belt_stage_1
    13538 |    13538 |        | Plugin: PT Player
    13352 |    13352 |        | Misc Data (paths, hurt boxes etc)
-   12618 |    12618 |        | Project Data
+   13166 |    13166 |        | Project Data
    10300 |    10300 |        | Music data black_belt_intro
     7228 |     7228 |        | Music data boss_loop
     6196 |     6196 |        | Panel hud
@@ -78,7 +78,7 @@ Misc data size: 92
     1046 |     1046 |        | Project Variables
      848 |      848 |        | Header data for map stage_1
      702 |      702 |        | Panel bobs hud
-      28 |       28 |        | Map actor data for stage_1
+     140 |      140 |        | Map actor data for stage_1
        4 |        4 |        | Project Custom Collisions
        4 |        4 |        | Project virtual machine redirects
 
@@ -97,8 +97,8 @@ For other:
 Map data memory: 1592
 Map background memory: 4932
 EXE memory: 196084
-vm memory: 17534
-project memory: 12618
+vm memory: 17600
+project memory: 13166
 Music data (metal_squad): 23612
 Misc data memory: 13352
 Plugin: PT Player: 13538
@@ -108,8 +108,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 545643
-Accounted memory other: 375840
-Accounted memory total: 921483
+Accounted memory other: 376454
+Accounted memory total: 922097
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -262,6 +262,7 @@ wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 test: 68
 jump_actor: 66 (Unused?)
+render_switch: 66
 destroy_all_actors: 60
 destroy_actor: 58
 quit: 58 (Unused?)

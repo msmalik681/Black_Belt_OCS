@@ -99,6 +99,7 @@
   </tile>
   <tile id="4">
     <properties>
+      <property name="Name" value="stage1_house" type="string" />
       <property name="IsPlatform" value="False" type="bool" />
       <property name="IsSolid" value="False" type="bool" />
       <property name="MD_Palette_TL" type="string" />
@@ -122,6 +123,7 @@
   </tile>
   <tile id="5">
     <properties>
+      <property name="Name" value="stage1_tower" type="string" />
       <property name="IsPlatform" value="False" type="bool" />
       <property name="IsSolid" value="False" type="bool" />
       <property name="MD_Palette_TL" type="string" />
