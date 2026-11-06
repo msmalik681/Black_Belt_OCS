@@ -69,7 +69,15 @@
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
       "CacheType": "nocache",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {
@@ -894,7 +902,7 @@
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "ken_duck",
+          "RightSide": "rikki_duck",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -924,7 +932,7 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
       "Background": null,
       "Level": "none",

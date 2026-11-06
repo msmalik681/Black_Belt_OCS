@@ -151,13 +151,6 @@
           "LeftSide": "actor_animationtag",
           "Comparison": "Equals",
           "RightSide": "ken_die",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "actor_animationtag",
-          "Comparison": "Equals",
-          "RightSide": "ken_super_die",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -457,14 +450,14 @@
         {
           "LeftSide": "player_type",
           "Comparison": "Equals",
-          "RightSide": "kenshiro",
+          "RightSide": "rikki",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
           "LeftSide": "player_type",
           "Comparison": "Equals",
-          "RightSide": "kenshiro_ducking",
+          "RightSide": "rikki_ducking",
           "ComparisonNext": "Or",
           "IsValid": true
         },

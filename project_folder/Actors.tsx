@@ -3,7 +3,7 @@
   <image source="actors.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="Name" value="kenshiro" type="string" />
+      <property name="Name" value="rikki" type="string" />
       <property name="IsPlatform" value="False" type="bool" />
       <property name="IsSolid" value="False" type="bool" />
       <property name="MD_Palette_TL" type="string" />
@@ -27,7 +27,7 @@
   </tile>
   <tile id="1">
     <properties>
-      <property name="Name" value="kenshiro_ducking" type="string" />
+      <property name="Name" value="rikki_ducking" type="string" />
       <property name="IsPlatform" value="False" type="bool" />
       <property name="IsSolid" value="False" type="bool" />
       <property name="MD_Palette_TL" type="string" />
@@ -99,7 +99,6 @@
   </tile>
   <tile id="4">
     <properties>
-      <property name="Name" value="super_kenshiro" type="string" />
       <property name="IsPlatform" value="False" type="bool" />
       <property name="IsSolid" value="False" type="bool" />
       <property name="MD_Palette_TL" type="string" />
@@ -123,7 +122,6 @@
   </tile>
   <tile id="5">
     <properties>
-      <property name="Name" value="super_kenshiro_ducking" type="string" />
       <property name="IsPlatform" value="False" type="bool" />
       <property name="IsSolid" value="False" type="bool" />
       <property name="MD_Palette_TL" type="string" />
@@ -219,7 +217,6 @@
   </tile>
   <tile id="9">
     <properties>
-      <property name="Name" value="rikki" type="string" />
       <property name="IsPlatform" value="False" type="bool" />
       <property name="IsSolid" value="False" type="bool" />
       <property name="MD_Palette_TL" type="string" />
@@ -239,7 +236,6 @@
       <property name="Neo_AutoAnim" value="False" type="bool" />
       <property name="AnimateProperties" value="False" type="bool" />
     </properties>
-    <animation />
   </tile>
   <tile id="10">
     <properties>

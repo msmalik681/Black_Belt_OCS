@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="18" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
  <properties>
+  <property name="divert_timer" value="stage_timer_debug"/>
   <property name="override_palette" type="file" value="stage_1_map.png"/>
  </properties>
  <tileset firstgid="1" source="../../Actors.tsx"/>

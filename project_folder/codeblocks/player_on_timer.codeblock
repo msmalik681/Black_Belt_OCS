@@ -527,14 +527,14 @@
         {
           "LeftSide": "actor_animationtag",
           "Comparison": "Equals",
-          "RightSide": "ken_idle",
+          "RightSide": "rikki_idle",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
           "LeftSide": "actor_animationtag",
           "Comparison": "Equals",
-          "RightSide": "ken_walk",
+          "RightSide": "rikki_walk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -611,7 +611,7 @@
         {
           "LeftSide": "player_type",
           "Comparison": "NotEquals",
-          "RightSide": "kenshiro_ducking",
+          "RightSide": "rikki_ducking",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -647,7 +647,7 @@
       "Y": "",
       "NewBlock": "none",
       "TeleportName": "none",
-      "ActorType": "kenshiro_ducking",
+      "ActorType": "rikki_ducking",
       "Animation": "none",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
@@ -988,7 +988,7 @@
         {
           "LeftSide": "actor_animationtag",
           "Comparison": "Equals",
-          "RightSide": "ken_duck",
+          "RightSide": "rikki_duck",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1065,7 +1065,7 @@
         {
           "LeftSide": "player_type",
           "Comparison": "NotEquals",
-          "RightSide": "kenshiro",
+          "RightSide": "rikki",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1101,7 +1101,7 @@
       "Y": "",
       "NewBlock": "none",
       "TeleportName": "none",
-      "ActorType": "kenshiro",
+      "ActorType": "rikki",
       "Animation": "none",
       "LookDirection": "look_upleft",
       "ResetMovement": true,

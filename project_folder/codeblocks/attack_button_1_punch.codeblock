@@ -753,7 +753,7 @@
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "ken_duck",
+          "RightSide": "rikki_duck",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -792,7 +792,7 @@
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
-      "Animation": "ken_duck_punch_r",
+      "Animation": "rikki_duck_punch_r",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,
