@@ -163,38 +163,6 @@
       "OnPress": "pre_quit",
       "OnRelease": null,
       "buttonState": 0
-    },
-    {
-      "Compiler": "amiga",
-      "Key": "P",
-      "JoystickPort": -1,
-      "JoystickX": 0,
-      "JoystickY": 0,
-      "JoystickFire1": false,
-      "JoystickFire2": false,
-      "JoystickFire3": false,
-      "CD32Play": false,
-      "CD32Reverse": false,
-      "CD32Forward": false,
-      "CD32Green": false,
-      "CD32Yellow": false,
-      "MegaDrive_B": false,
-      "MegaDrive_C": false,
-      "MegaDrive_A": false,
-      "MegaDrive_Start": false,
-      "MegaDrive_X": false,
-      "MegaDrive_Y": false,
-      "MegaDrive_Z": false,
-      "MegaDrive_Mode": false,
-      "Neo_A": false,
-      "Neo_B": false,
-      "Neo_C": false,
-      "Neo_D": false,
-      "Neo_Start": false,
-      "Neo_Select": false,
-      "OnPress": "test",
-      "OnRelease": null,
-      "buttonState": 0
     }
   ],
   "AnimationMetaData": {},
@@ -228,13 +196,6 @@
       "Priority": 0,
       "Channel": null
     },
-    "jump_kicks": {
-      "LinkedMap": "ken_normal",
-      "RepeatDelay": 1,
-      "IsMusic": false,
-      "Priority": 0,
-      "Channel": null
-    },
     "power_up": {
       "LinkedMap": "",
       "RepeatDelay": 1,
@@ -243,6 +204,13 @@
       "Channel": null
     },
     "player_die": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "jump_kicks": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,

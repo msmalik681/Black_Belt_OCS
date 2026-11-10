@@ -111,7 +111,7 @@
   },
   "AttackDelay": 0,
   "ZOrder": 0,
-  "SpeedLeft": 3.5,
+  "SpeedLeft": 3.0,
   "SpeedRight": 4.0,
   "SpeedUp": 10.0,
   "SpeedDown": 10.0,

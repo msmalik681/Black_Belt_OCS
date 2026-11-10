@@ -9,12 +9,12 @@
   "Idles": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "ken_jump_r",
+    "UpRight": "",
     "Left": "",
     "Right": "rikki_duck_r",
     "DownLeft": "",
     "Down": "",
-    "DownRight": "ken_duck_r"
+    "DownRight": ""
   },
   "Moves": {
     "UpLeft": "",

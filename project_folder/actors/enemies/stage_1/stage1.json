@@ -112,6 +112,73 @@
         "PreventMovement": "True",
         "LinkedMap": "stage_1"
       }
+    },
+    "knife_walk_r": {
+      "FrameData": [
+        {
+          "FrameID": "knife_walk_01",
+          "Duration": 10,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"attack_trigger\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"ReturnIfActioned\": false,\r\n      \"Box\": {\r\n        \"X\": 0,\r\n        \"Y\": -48,\r\n        \"Width\": 30,\r\n        \"Height\": 17\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+          }
+        },
+        {
+          "FrameID": "knife_walk_02",
+          "Duration": 10,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"attack_trigger\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"ReturnIfActioned\": false,\r\n      \"Box\": {\r\n        \"X\": 0,\r\n        \"Y\": -48,\r\n        \"Width\": 30,\r\n        \"Height\": 17\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+          }
+        },
+        {
+          "FrameID": "knife_walk_01",
+          "Duration": 10,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"attack_trigger\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"ReturnIfActioned\": false,\r\n      \"Box\": {\r\n        \"X\": 0,\r\n        \"Y\": -48,\r\n        \"Width\": 30,\r\n        \"Height\": 17\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+          }
+        },
+        {
+          "FrameID": "knife_walk_03",
+          "Duration": 10,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"attack_trigger\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"ReturnIfActioned\": false,\r\n      \"Box\": {\r\n        \"X\": 0,\r\n        \"Y\": -48,\r\n        \"Width\": 30,\r\n        \"Height\": 17\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+          }
+        }
+      ],
+      "Properties": {
+        "LinkedMap": "stage_1",
+        "SlowFlip": "False"
+      }
+    },
+    "knife_throw_r": {
+      "FrameData": [
+        {
+          "FrameID": "knife_throw_01",
+          "Duration": 25,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"attack_trigger\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"ReturnIfActioned\": false,\r\n      \"Box\": {\r\n        \"X\": 0,\r\n        \"Y\": -48,\r\n        \"Width\": 30,\r\n        \"Height\": 17\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+          }
+        },
+        {
+          "FrameID": "knife_throw_02",
+          "Duration": 25,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"attack_trigger\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"ReturnIfActioned\": false,\r\n      \"Box\": {\r\n        \"X\": 0,\r\n        \"Y\": -48,\r\n        \"Width\": 30,\r\n        \"Height\": 17\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+          }
+        },
+        {
+          "FrameID": "knife_throw_03",
+          "Duration": 40,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"attack_trigger\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"ReturnIfActioned\": false,\r\n      \"Box\": {\r\n        \"X\": 0,\r\n        \"Y\": -48,\r\n        \"Width\": 30,\r\n        \"Height\": 17\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+          }
+        }
+      ],
+      "Properties": {
+        "SlowFlip": "False",
+        "LinkedMap": "stage_1",
+        "PreventMovement": "True",
+        "PreventJump": "True"
+      }
     }
   },
   "Frames": {
@@ -177,7 +244,7 @@
           "Value": 0,
           "X": 0,
           "Y": -48,
-          "Width": 37,
+          "Width": 30,
           "Height": 17,
           "ColorR": 0,
           "ColorG": 0,
@@ -267,7 +334,7 @@
           "Value": 0,
           "X": 0,
           "Y": -48,
-          "Width": 37,
+          "Width": 30,
           "Height": 17,
           "ColorR": 0,
           "ColorG": 0,
@@ -348,7 +415,7 @@
           "Value": 0,
           "X": 0,
           "Y": -48,
-          "Width": 37,
+          "Width": 30,
           "Height": 17,
           "ColorR": 0,
           "ColorG": 0,
@@ -574,6 +641,477 @@
         }
       ],
       "ColRects": {},
+      "Properties": {}
+    },
+    "knife_walk_01": {
+      "Sprites": [
+        {
+          "FramePath": "knife\\knife_bent.png",
+          "HandleX": 3,
+          "HandleY": -70,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_03.png",
+          "HandleX": 2,
+          "HandleY": -63,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_01.png",
+          "HandleX": -7,
+          "HandleY": -41,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_01.png",
+          "HandleX": -8,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_02.png",
+          "HandleX": -6,
+          "HandleY": -48,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_04.png",
+          "HandleX": -3,
+          "HandleY": -57,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "attack_trigger": {
+          "Value": 0,
+          "X": 0,
+          "Y": -48,
+          "Width": 30,
+          "Height": 17,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {}
+    },
+    "knife_walk_02": {
+      "Sprites": [
+        {
+          "FramePath": "knife\\knife_bent.png",
+          "HandleX": 1,
+          "HandleY": -69,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_03.png",
+          "HandleX": 0,
+          "HandleY": -62,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_02_01.png",
+          "HandleX": -6,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_02_02.png",
+          "HandleX": -17,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_02_03.png",
+          "HandleX": 15,
+          "HandleY": -2,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_01.png",
+          "HandleX": -8,
+          "HandleY": -76,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_02.png",
+          "HandleX": -6,
+          "HandleY": -47,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_04.png",
+          "HandleX": -2,
+          "HandleY": -56,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "attack_trigger": {
+          "Value": 0,
+          "X": 0,
+          "Y": -48,
+          "Width": 30,
+          "Height": 17,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {}
+    },
+    "knife_walk_03": {
+      "Sprites": [
+        {
+          "FramePath": "knife\\knife_bent.png",
+          "HandleX": 4,
+          "HandleY": -70,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_03.png",
+          "HandleX": 3,
+          "HandleY": -63,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_03_01.png",
+          "HandleX": -18,
+          "HandleY": -40,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_03_02.png",
+          "HandleX": 14,
+          "HandleY": -3,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_01.png",
+          "HandleX": -8,
+          "HandleY": -76,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_02.png",
+          "HandleX": -6,
+          "HandleY": -47,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_04.png",
+          "HandleX": -5,
+          "HandleY": -56,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "attack_trigger": {
+          "Value": 0,
+          "X": 0,
+          "Y": -48,
+          "Width": 30,
+          "Height": 17,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {}
+    },
+    "knife_throw_01": {
+      "Sprites": [
+        {
+          "FramePath": "knife\\knife_bent.png",
+          "HandleX": 2,
+          "HandleY": -77,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_03.png",
+          "HandleX": 1,
+          "HandleY": -70,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_01.png",
+          "HandleX": -7,
+          "HandleY": -41,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_01.png",
+          "HandleX": -8,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_02.png",
+          "HandleX": -6,
+          "HandleY": -48,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_04.png",
+          "HandleX": -3,
+          "HandleY": -57,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "attack_trigger": {
+          "Value": 0,
+          "X": 0,
+          "Y": -48,
+          "Width": 30,
+          "Height": 17,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {}
+    },
+    "knife_throw_02": {
+      "Sprites": [
+        {
+          "FramePath": "knife\\knife_bent.png",
+          "HandleX": 0,
+          "HandleY": -84,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_03.png",
+          "HandleX": -1,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_01.png",
+          "HandleX": -7,
+          "HandleY": -41,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_01.png",
+          "HandleX": -8,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_02.png",
+          "HandleX": -6,
+          "HandleY": -48,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_idle_04.png",
+          "HandleX": -3,
+          "HandleY": -57,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "attack_trigger": {
+          "Value": 0,
+          "X": 0,
+          "Y": -48,
+          "Width": 30,
+          "Height": 17,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {}
+    },
+    "knife_throw_03": {
+      "Sprites": [
+        {
+          "FramePath": "stage1_grunt\\walk_02_01.png",
+          "HandleX": -6,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_02_02.png",
+          "HandleX": -17,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "stage1_grunt\\walk_02_03.png",
+          "HandleX": 15,
+          "HandleY": -2,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_throw_03.png",
+          "HandleX": -5,
+          "HandleY": -48,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_throw_01.png",
+          "HandleX": -8,
+          "HandleY": -68,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "knife\\knife_throw_02.png",
+          "HandleX": 19,
+          "HandleY": -61,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "attack_trigger": {
+          "Value": 0,
+          "X": 0,
+          "Y": -48,
+          "Width": 30,
+          "Height": 17,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
       "Properties": {}
     }
   },

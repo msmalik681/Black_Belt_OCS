@@ -150,7 +150,7 @@
         {
           "LeftSide": "actor_animationtag",
           "Comparison": "Equals",
-          "RightSide": "ken_die",
+          "RightSide": "rikki_die",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -300,7 +300,15 @@
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
       "CacheType": "nocache",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -580,7 +588,7 @@
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
-      "Animation": "ken_die_r",
+      "Animation": "rikki_die_r",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,

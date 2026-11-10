@@ -905,7 +905,7 @@
         {
           "LeftSide": "projectile_animationtag",
           "Comparison": "Equals",
-          "RightSide": "enemies_axe_thrown",
+          "RightSide": "knife_thrown",
           "ComparisonNext": "Or",
           "IsValid": true
         },
