@@ -68,6 +68,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -144,6 +145,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -176,7 +178,7 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
@@ -220,6 +222,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -229,6 +232,75 @@
           "IsValid": false
         }
       ]
+    },
+    {
+      "Values": {},
+      "DataVersion": 7,
+      "Category": "Base",
+      "BasicOperationType": "Gosub",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "stage_timer",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "",
+      "Index": "0",
+      "Label": "",
+      "Disabled": false,
+      "Breakpoint": false,
+      "Background": null,
+      "Level": "none",
+      "X": "",
+      "Y": "",
+      "NewBlock": "none",
+      "TeleportName": "none",
+      "ActorType": "none",
+      "Animation": "none",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "CameraFollowMask": 0,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "6",
+      "CacheType": "nocache",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -296,7 +368,16 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": []
+      "CacheType": "nocache",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -364,6 +445,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -440,6 +522,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player_invincable_time",
@@ -516,6 +599,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -592,6 +676,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player_invincable_time",
@@ -668,6 +753,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -744,6 +830,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -812,6 +899,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -888,6 +976,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -956,6 +1045,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1032,6 +1122,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player_x",
@@ -1115,6 +1206,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1191,6 +1283,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1267,6 +1360,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1288,7 +1382,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "enemy_count",
-      "Expression": "1",
+      "Expression": "0",
       "Index": "0",
       "Label": "",
       "Disabled": false,
@@ -1335,6 +1429,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1344,6 +1439,77 @@
           "IsValid": false
         }
       ]
+    },
+    {
+      "Values": {
+        "MathsOperationType": "Angle"
+      },
+      "DataVersion": 7,
+      "Category": "Base",
+      "BasicOperationType": "SetVariable",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "enemy_spawn",
+      "Expression": "0",
+      "Index": "0",
+      "Label": "",
+      "Disabled": false,
+      "Breakpoint": false,
+      "Background": null,
+      "Level": "none",
+      "X": "",
+      "Y": "",
+      "NewBlock": "none",
+      "TeleportName": "none",
+      "ActorType": "none",
+      "Animation": "none",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "CameraFollowMask": 0,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "6",
+      "CacheType": "nocache",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -1411,11 +1577,12 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "actor_type",
           "Comparison": "Equals",
-          "RightSide": "axe_grunt",
+          "RightSide": "stage1_grunt",
           "ComparisonNext": "Or",
           "IsValid": true
         },
@@ -1494,6 +1661,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1570,11 +1738,12 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "enemy_count",
           "Comparison": "LessThan",
-          "RightSide": "4",
+          "RightSide": "2",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1646,6 +1815,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1722,6 +1892,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "3",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1798,6 +1969,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "enemy_count",
@@ -1827,7 +1999,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "enemy_spawn",
-      "Expression": "projectiles",
+      "Expression": "stage1_grunt",
       "Index": "0",
       "Label": "",
       "Disabled": false,
@@ -1874,6 +2046,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1950,6 +2123,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1971,7 +2145,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "enemy_spawn",
-      "Expression": "axe_grunt",
+      "Expression": "stage1_grunt",
       "Index": "0",
       "Label": "",
       "Disabled": false,
@@ -2018,6 +2192,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2094,6 +2269,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2162,6 +2338,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2238,6 +2415,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2314,6 +2492,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "4",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2390,6 +2569,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "enemy_count",
@@ -2466,6 +2646,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2542,6 +2723,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2618,6 +2800,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2694,6 +2877,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "enemy_count",
@@ -2770,6 +2954,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2846,6 +3031,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2914,6 +3100,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2990,6 +3177,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -3058,6 +3246,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3134,6 +3323,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     }
   ]
