@@ -335,7 +335,7 @@
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
-      "Animation": "stage1_enemies_grunt_death_r",
+      "Animation": "stage1_grunt_death_r",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,

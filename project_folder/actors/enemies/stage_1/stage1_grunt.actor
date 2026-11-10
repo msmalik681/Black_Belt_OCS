@@ -11,7 +11,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "strage1_grunt_walk_l",
-    "Right": "stage1__grunt_attack_r",
+    "Right": "stage1_grunt_walk_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -31,7 +31,7 @@
     "Up": "",
     "UpRight": "none",
     "Left": "",
-    "Right": "stage1_enemies_grunt_attack_r",
+    "Right": "none",
     "DownLeft": "",
     "Down": "",
     "DownRight": "none"

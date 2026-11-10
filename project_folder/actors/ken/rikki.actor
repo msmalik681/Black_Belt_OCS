@@ -138,7 +138,7 @@
   "AttackSound": null,
   "JumpSound": "",
   "DivertAttack": "",
-  "DivertSpawn": "music_start",
+  "DivertSpawn": "none",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",

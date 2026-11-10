@@ -519,7 +519,7 @@
         {
           "LeftSide": "actor_animationtag",
           "Comparison": "Equals",
-          "RightSide": "stage1_enemies_grunt_walk",
+          "RightSide": "stage1_grunt_walk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -558,7 +558,7 @@
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
-      "Animation": "stage1_enemies_grunt_attack_r",
+      "Animation": "stage1_grunt_attack_r",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,
@@ -898,7 +898,7 @@
         {
           "LeftSide": "actor_animationtag",
           "Comparison": "Equals",
-          "RightSide": "enemies_axegrunt_attack",
+          "RightSide": "stage1_grunt_attack",
           "ComparisonNext": "Or",
           "IsValid": true
         },
