@@ -109,7 +109,8 @@
         "PreventAttack": "True",
         "PreventJump": "True",
         "SlowFlip": "False",
-        "PreventMovement": "True"
+        "PreventMovement": "True",
+        "LinkedMap": "stage_1"
       }
     }
   },

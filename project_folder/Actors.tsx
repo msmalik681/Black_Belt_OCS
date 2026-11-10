@@ -21,26 +21,14 @@
       <property name="Name" value="blood_effect" type="string" />
     </properties>
   </tile>
-  <tile id="4">
-    <properties>
-      <property name="Name" value="stage1_house" type="string" />
-    </properties>
-  </tile>
-  <tile id="5">
-    <properties>
-      <property name="Name" value="stage1_tower" type="string" />
-    </properties>
-  </tile>
+  <tile id="4" />
+  <tile id="5" />
   <tile id="6">
     <properties>
       <property name="Name" value="projectiles" type="string" />
     </properties>
   </tile>
-  <tile id="7">
-    <properties>
-      <property name="Name" value="copyof_axe_grunt" type="string" />
-    </properties>
-  </tile>
+  <tile id="7" />
   <tile id="8">
     <properties>
       <property name="Name" value="stage1_grunt" type="string" />
