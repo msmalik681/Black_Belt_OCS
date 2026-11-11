@@ -1,0 +1,5 @@
+ActorShoot none
+
+If actor_var3 != 0 //var3 controls height
+    NewPosition Y=actor_var3
+End

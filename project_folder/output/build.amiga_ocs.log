@@ -1,26 +1,26 @@
-Compiled on 10 November 2026 13:58:46
-Version string: SE2026.0.261110.18.35.EX
+Compiled on 11 November 2026 12:21:54
+Version string: SE2026.0.261111.18.51.EX
 
 === Misc ===
-ImageFrames: 125
-ImageFrame Data Size: 4500
+ImageFrames: 157
+ImageFrame Data Size: 5652
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 0
-Actor Count: 7
-Actor Data Size: 1260
+Actor Count: 8
+Actor Data Size: 1440
 Block Count: 3
 Block Data Size: 204
 Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 47
-Animations Data Size: 752
-AnimationFrame Count: 126
-AnimationFrame Data Size: 2016
-Attack Data: 5
-Attack Data Size: 440
-Misc data size: 92
+Animations Count: 57
+Animations Data Size: 912
+AnimationFrame Count: 158
+AnimationFrame Data Size: 2528
+Attack Data: 6
+Attack Data Size: 528
+Misc data size: 110
 
 === Cartridge Composition ===
  Header |   Offset | Size     | Crunch    | Detail
@@ -29,42 +29,42 @@ Misc data size: 92
    PG-1 |      512 |    13538 |  NoCrunch | Plugin: PT Player
    PL04 |    62386 |     4932 |  NoCrunch | Panel (background color #000)
    PL01 |    67318 |     2476 |       ZX0 | Panel scorpion_eng_splashscreen
-   PL02 |    69794 |     6196 |  NoCrunch | Panel hud
-   PC02 |    75990 |      702 |  NoCrunch | Panel bobs hud
-   PL03 |    76692 |    47860 |  NoCrunch | Panel title
-   VV00 |   124552 |     1046 |  NoCrunch | Project Variables
-   VC00 |   125598 |    16470 |  NoCrunch | Project virtual machine (codeblocks)
-   MA01 |      324 |       28 |  NoCrunch | Map actor data for stage_1
-   MH01 |   142068 |      848 |  NoCrunch | Header data for map stage_1
-   MD01 |   142916 |     7892 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
-   AB00 |   150808 |   192014 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB01 |   342822 |    20516 |  NoCrunch | Asset bundle 1 (stage_1)
-   DB00 |   363338 |     9376 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   372714 |     4508 |  NoCrunch | Project Header
-   PD01 |      352 |        4 |  NoCrunch | Project Custom Collisions
-   PD00 |   377222 |     9522 |  NoCrunch | Project Data
-   VR00 |      356 |        4 |  NoCrunch | Project virtual machine redirects
+   PL02 |    69794 |     5332 |  NoCrunch | Panel hud
+   PC02 |    75126 |      702 |  NoCrunch | Panel bobs hud
+   PL03 |    75828 |    47860 |  NoCrunch | Panel title
+   VV00 |   123688 |     1046 |  NoCrunch | Project Variables
+   VC00 |   124734 |    16904 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |      324 |       56 |  NoCrunch | Map actor data for stage_1
+   MH01 |   141638 |      848 |  NoCrunch | Header data for map stage_1
+   MD01 |   142486 |     7892 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   AB00 |   150378 |   192014 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |   342392 |    30166 |  NoCrunch | Asset bundle 1 (stage_1)
+   DB00 |   372558 |    12884 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   385442 |     4508 |  NoCrunch | Project Header
+   PD01 |      380 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |   389950 |    11632 |  NoCrunch | Project Data
+   VR00 |      384 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
   192014 |   192014 |        | Asset bundle 0 (Core project asset bundle)
    47860 |    47860 |        | Panel title
    32916 |    32916 |        | Music samples black_belt
-   20516 |    20516 |        | Asset bundle 1 (stage_1)
-   16470 |    16470 |        | Project virtual machine (codeblocks)
+   30166 |    30166 |        | Asset bundle 1 (stage_1)
+   16904 |    16904 |        | Project virtual machine (codeblocks)
    15420 |    15420 |        | Music data black_belt
    13538 |    13538 |        | Plugin: PT Player
-    9522 |     9522 |        | Project Data
-    9376 |     9376 |        | Misc Data (paths, hurt boxes etc)
+   12884 |    12884 |        | Misc Data (paths, hurt boxes etc)
+   11632 |    11632 |        | Project Data
     7892 |     7892 |        | Tile data for map stage_1 (mem restrictions:None)
-    6196 |     6196 |        | Panel hud
+    5332 |     5332 |        | Panel hud
     4932 |     4932 |        | Panel (background color #000)
     4508 |     4508 |        | Project Header
     2476 |    36780 |  (94%) | Panel scorpion_eng_splashscreen
     1046 |     1046 |        | Project Variables
      848 |      848 |        | Header data for map stage_1
      702 |      702 |        | Panel bobs hud
-      28 |       28 |        | Map actor data for stage_1
+      56 |       56 |        | Map actor data for stage_1
        4 |        4 |        | Project Custom Collisions
        4 |        4 |        | Project virtual machine redirects
 
@@ -83,10 +83,10 @@ For other:
 Map data memory: 7892
 Map background memory: 4932
 EXE memory: 196272
-vm memory: 16470
-project memory: 9522
+vm memory: 16904
+project memory: 11632
 Music data (black_belt): 15420
-Misc data memory: 9376
+Misc data memory: 12884
 Plugin: PT Player: 13538
 memory reserved for codeblocks variables: 1046
 memory reserved for active actors on screen (32): 5064
@@ -94,14 +94,15 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 531177
-Accounted memory other: 374192
-Accounted memory total: 905369
+Accounted memory other: 380244
+Accounted memory total: 911421
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
 enemies_axe_grunt_bump_r
 enemies_axe_grunt_die_l
 enemies_axe_grunt_die_r
+enemies_axe_thrown_r
 enemies_axegrunt_throw_l
 enemies_axegrunt_throw_r
 rikki_die_l
@@ -114,6 +115,14 @@ rikki_pain_l
 rikki_punch_l
 stage1_grunt_attack_l
 stage1_grunt_death_l
+stage1_knife_death_l
+stage1_knife_death_r
+stage1_knife_duck_throw_l
+stage1_knife_duck_throw_r
+stage1_knife_throw_l
+
+=== Possibly unused Actors ===
+stage1_knife
 
 === Possibly unused sound effects ===
 jump_kicks
@@ -121,17 +130,17 @@ power_up
 
 === Codeblocks by compiled size ===
 load_level: 640
-stage_timer: 506
+stage_timer: 490 (Unused?)
 stage_reset: 472
 startup: 440
 player_bump: 432
 enemy_hit_player: 396
-enemy_damage: 376
+enemy_pop: 392
 pre_startup: 374
 player_land: 322
 do_teleport: 318
 flipscreen_smooth: 310 (Unused?)
-enemy_pop: 300
+enemy_damage: 292
 attack_button_1_punch: 280
 flipxymove: 278 (Unused?)
 waitforframes: 274
@@ -141,7 +150,6 @@ attack_button_2_kick: 228
 player_on_timer: 224
 block_find: 210 (Unused?)
 set_yresolution: 206
-enemy_special: 202 (Unused?)
 enemy_bump: 192
 check_talkpad: 190 (Unused?)
 pause: 184
@@ -156,7 +164,10 @@ check_direction: 136
 load_panel: 134
 unload_level: 132
 stop_sfx: 130
+enemy_special: 130 (Unused?)
 destroy_all_blocks: 128 (Unused?)
+autogen_stage1_knife_walk_l_3: 122
+autogen_stage1_knife_walk_r_3: 118
 autogen_rikki_duck_kick_l_1: 116
 autogen_rikki_duck_kick_r_1: 116
 autogen_rikki_duck_punch_l_1: 116
@@ -168,7 +179,9 @@ autogen_rikki_kick_l_1: 116
 autogen_rikki_kick_r_1: 116
 autogen_rikki_punch_l_1: 116
 autogen_rikki_punch_r_1: 116
+autogen_stage1_knife_throw_l_2: 116
 autogen_rikki_jump_punch_r_1: 114
+autogen_stage1_knife_throw_r_2: 112
 anim_force_left: 108 (Unused?)
 anim_force_right: 108 (Unused?)
 fadein: 108
@@ -176,7 +189,7 @@ waitforfireup: 106
 error_checks: 104
 unload_panel: 102
 waitforfiredown: 102
-stage_timer_debug: 100 (Unused?)
+stage_timer_debug: 100
 load_panel_bottom: 96
 load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
@@ -231,6 +244,7 @@ unload_panel_bottom: 50
 unload_panel_top: 50
 freeze_actor: 46 (Unused?)
 unfreeze_actor: 46 (Unused?)
+enemy_throw: 46
 autogen_enemies_axe_grunt_die_l_3: 38
 autogen_rikki_die_l_2: 38
 count_enemies: 36

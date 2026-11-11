@@ -11,7 +11,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "strage1_grunt_walk_l",
-    "Right": "stage1_grunt_walk_r",
+    "Right": "stage1_knife_walk_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -56,10 +56,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": -50,
+      "y": -63,
+      "magnitude": 80.43009,
+      "sqrMagnitude": 6469
     },
     {
       "x": 0,
@@ -68,10 +68,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": 50,
+      "y": -63,
+      "magnitude": 80.43009,
+      "sqrMagnitude": 6469
     },
     {
       "x": 0,
@@ -111,8 +111,8 @@
   },
   "AttackDelay": 0,
   "ZOrder": 0,
-  "SpeedLeft": 3.0,
-  "SpeedRight": 4.0,
+  "SpeedLeft": 2.4,
+  "SpeedRight": 2.4,
   "SpeedUp": 10.0,
   "SpeedDown": 10.0,
   "AccelLeft": 5.0,
@@ -133,7 +133,7 @@
   "Camera": null,
   "AutoScroll": null,
   "Flags": "pursuesPlayer",
-  "AttackProjectile": null,
+  "AttackProjectile": "knife_throw",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -152,7 +152,7 @@
   "DivertTimer": null,
   "DivertTimerFrames": 0,
   "Vars": [
-    "0",
+    "4",
     "0",
     "0",
     "0",

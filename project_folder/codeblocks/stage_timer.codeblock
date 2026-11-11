@@ -1583,13 +1583,6 @@
           "LeftSide": "actor_type",
           "Comparison": "Equals",
           "RightSide": "stage1_grunt",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "actor_type",
-          "Comparison": "Equals",
-          "RightSide": "projectiles",
           "ComparisonNext": "End",
           "IsValid": true
         }
