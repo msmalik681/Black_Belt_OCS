@@ -179,6 +179,31 @@
         "PreventMovement": "True",
         "PreventJump": "True"
       }
+    },
+    "knife_duck_throw_r": {
+      "FrameData": [
+        {
+          "FrameID": "knife_duck_01",
+          "Duration": 10,
+          "Properties": {}
+        },
+        {
+          "FrameID": "knife_duck_throw_01",
+          "Duration": 10,
+          "Properties": {}
+        },
+        {
+          "FrameID": "knife_duck_throw_02",
+          "Duration": 20,
+          "Properties": {}
+        },
+        {
+          "FrameID": "knife_duck_throw_03",
+          "Duration": 30,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
     }
   },
   "Frames": {
@@ -692,7 +717,7 @@
         },
         {
           "FramePath": "knife\\knife_idle_04.png",
-          "HandleX": -2,
+          "HandleX": -3,
           "HandleY": -33,
           "XFlip": false,
           "NoFlip": false,
