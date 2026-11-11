@@ -10,7 +10,7 @@
       "PaletteLineNeo": 0,
       "ShrinkPaddingNeo": 0,
       "Bitplane": 0,
-      "RenderType": "Sliced",
+      "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "knife.png",
       "HandleX": -8,
