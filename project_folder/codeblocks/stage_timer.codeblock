@@ -1736,7 +1736,7 @@
         {
           "LeftSide": "enemy_count",
           "Comparison": "LessThan",
-          "RightSide": "2",
+          "RightSide": "1",
           "ComparisonNext": "End",
           "IsValid": true
         }

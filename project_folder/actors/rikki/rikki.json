@@ -232,13 +232,18 @@
       "FrameData": [
         {
           "FrameID": "pain_01",
-          "Duration": 4,
+          "Duration": 20,
           "Properties": {
             "Events": "{\r\n  \"Events\": []\r\n}"
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventCollision": "True",
+        "PreventAttack": "True",
+        "PreventJump": "True",
+        "OnFinish": "player_bump"
+      }
     },
     "die_r": {
       "FrameData": [

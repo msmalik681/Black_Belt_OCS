@@ -1,0 +1,251 @@
+Compiled on 12 November 2026 13:58:54
+Version string: SE2026.0.261111.18.51.EX
+
+=== Misc ===
+ImageFrames: 131
+ImageFrame Data Size: 4716
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 0
+Actor Count: 7
+Actor Data Size: 1260
+Block Count: 3
+Block Data Size: 204
+Sound Count: 8
+Sound Data Size: 224
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 47
+Animations Data Size: 752
+AnimationFrame Count: 132
+AnimationFrame Data Size: 2112
+Attack Data: 5
+Attack Data Size: 440
+Misc data size: 110
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   MC01 |    84194 |    15420 |  NoCrunch | Music data black_belt
+   MS01 |    99614 |    32916 |  NoCrunch | Music samples black_belt
+   PG-1 |    70656 |    13538 |  NoCrunch | Plugin: PT Player
+   PL04 |   132530 |     4932 |  NoCrunch | Panel (background color #000)
+   PL01 |   137462 |     2476 |       ZX0 | Panel scorpion_eng_splashscreen
+   PL02 |   139938 |     5332 |  NoCrunch | Panel hud
+   PC02 |   145270 |      702 |  NoCrunch | Panel bobs hud
+   PL03 |   145972 |    47860 |  NoCrunch | Panel title
+   VV00 |   193832 |     1048 |  NoCrunch | Project Variables
+   VC00 |   194880 |    17414 |  NoCrunch | Project virtual machine (codeblocks)
+   MH01 |   212294 |      848 |  NoCrunch | Header data for map lives_screen
+   MD01 |   213142 |     2024 |  NoCrunch | Tile data for map lives_screen (mem restrictions:None)
+   MA02 |    70516 |       56 |  NoCrunch | Map actor data for stage_1
+   MH02 |   215166 |      848 |  NoCrunch | Header data for map stage_1
+   MD02 |   216014 |    10412 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   AB00 |   226426 |   105584 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB02 |   332010 |    30272 |  NoCrunch | Asset bundle 2 (stage_1)
+   AB01 |   362282 |     1870 |  NoCrunch | Asset bundle 1 (lives_screen)
+   DB00 |   364152 |    13884 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   378036 |     4508 |  NoCrunch | Project Header
+   PD01 |    70572 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |   382544 |     9852 |  NoCrunch | Project Data
+   VR00 |    70576 |        4 |  NoCrunch | Project virtual machine redirects
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+  105584 |   105584 |        | Asset bundle 0 (Core project asset bundle)
+   47860 |    47860 |        | Panel title
+   32916 |    32916 |        | Music samples black_belt
+   30272 |    30272 |        | Asset bundle 2 (stage_1)
+   17414 |    17414 |        | Project virtual machine (codeblocks)
+   15420 |    15420 |        | Music data black_belt
+   13884 |    13884 |        | Misc Data (paths, hurt boxes etc)
+   13538 |    13538 |        | Plugin: PT Player
+   10412 |    10412 |        | Tile data for map stage_1 (mem restrictions:None)
+    9852 |     9852 |        | Project Data
+    5332 |     5332 |        | Panel hud
+    4932 |     4932 |        | Panel (background color #000)
+    4508 |     4508 |        | Project Header
+    2476 |    36780 |  (94%) | Panel scorpion_eng_splashscreen
+    2024 |     2024 |        | Tile data for map lives_screen (mem restrictions:None)
+    1870 |     1870 |        | Asset bundle 1 (lives_screen)
+    1048 |     1048 |        | Project Variables
+     848 |      848 |        | Header data for map lives_screen
+     848 |      848 |        | Header data for map stage_1
+     702 |      702 |        | Panel bobs hud
+      56 |       56 |        | Map actor data for stage_1
+       4 |        4 |        | Project Custom Collisions
+       4 |        4 |        | Project virtual machine redirects
+
+=== ADF Size ===
+392420 bytes total (out of 901120, 44%)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (Panel: title): 47860
+Music sample (black_belt): 32916
+BP Buffer memory: 144060
+Core sfx/gfx memory: 105583
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map data memory: 10412
+Map background memory: 4932
+EXE memory: 196272
+vm memory: 17414
+project memory: 9852
+Music data (black_belt): 15420
+Misc data memory: 13884
+Plugin: PT Player: 13538
+memory reserved for codeblocks variables: 1048
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+OS/other estimated: 105472
+
+Accounted memory chip: 445167
+Accounted memory other: 382496
+Accounted memory total: 827663
+
+=== Possibly unused animations ===
+rikki_die_l
+rikki_duck_kick_l
+rikki_duck_punch_l
+rikki_jump_kick_l
+rikki_jump_punch_l
+rikki_kick_l
+rikki_pain_l
+rikki_punch_l
+stage1_grunt_attack_l
+stage1_grunt_death_l
+stage1_knife_death_l
+stage1_knife_duck_throw_l
+stage1_knife_runback_l
+stage1_knife_throw_l
+
+=== Possibly unused sound effects ===
+jump_kicks
+power_up
+
+=== Codeblocks by compiled size ===
+load_level: 640
+enemy_ai: 636
+stage_timer: 490
+startup: 486
+stage_reset: 458
+player_bump: 432
+enemy_pop: 418
+pre_startup: 374
+enemy_damage: 372
+player_land: 322
+do_teleport: 318
+flipscreen_smooth: 310 (Unused?)
+attack_button_1_punch: 280
+flipxymove: 278 (Unused?)
+waitforframes: 274
+freemem: 268
+load_next_level: 268 (Unused?)
+enemy_hit_player: 268
+lives_screen_timer: 240
+attack_button_2_kick: 228
+player_on_timer: 224
+block_find: 210 (Unused?)
+set_yresolution: 206
+enemy_bump: 192 (Unused?)
+check_talkpad: 190 (Unused?)
+pause: 184
+block_count: 178 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160
+stage_end: 150 (Unused?)
+flipxmove: 142
+restart_this_level: 136 (Unused?)
+check_direction: 136
+load_panel: 134
+unload_level: 132
+stop_sfx: 130
+enemy_special: 130 (Unused?)
+destroy_all_blocks: 128 (Unused?)
+autogen_stage1_knife_duck_throw_l_3: 126
+autogen_stage1_knife_throw_l_2: 126
+autogen_stage1_knife_duck_throw_r_3: 122
+autogen_stage1_knife_throw_r_2: 122
+autogen_rikki_duck_kick_l_1: 116
+autogen_rikki_duck_kick_r_1: 116
+autogen_rikki_duck_punch_l_1: 116
+autogen_rikki_duck_punch_r_1: 116
+autogen_rikki_jump_kick_l_0: 116
+autogen_rikki_jump_kick_r_0: 116
+autogen_rikki_jump_punch_l_1: 116
+autogen_rikki_kick_l_1: 116
+autogen_rikki_kick_r_1: 116
+autogen_rikki_punch_l_1: 116
+autogen_rikki_punch_r_1: 116
+autogen_stage1_knife_runback_l_0: 116
+autogen_rikki_jump_punch_r_1: 114
+autogen_stage1_knife_runback_r_0: 112
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+waitforfireup: 106
+error_checks: 104
+unload_panel: 102
+waitforfiredown: 102
+autogen_stage1_knife_walk_l_1: 102
+stage_timer_debug: 100 (Unused?)
+autogen_stage1_knife_walk_r_1: 98
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+fix_direction: 94
+player_look_at_me: 94
+autogen_bird_fly_0: 90
+autogen_bird_fly_1: 90
+autogen_bird_fly_2: 90
+autogen_bird_fly_3: 90
+autogen_bird_fly_5: 90
+autogen_bird_fly_6: 90
+autogen_bird_fly_7: 90
+autogen_rikki_jump_kick_l_1: 90
+autogen_rikki_jump_kick_r_1: 90
+autogen_stage1_grunt_attack_l_1: 90
+autogen_stage1_grunt_walk_l_0: 90
+autogen_stage1_grunt_attack_r_1: 88
+enemy_throw: 88
+pre_load_level: 86
+waitforfirehit: 86
+autogen_bird_fly_4: 86
+autogen_stage1_grunt_walk_r_0: 86
+autogen_rikki_die_l_0: 78
+AUTOGEN_OUTOFSCREEN_flipxmove_flipxmove_None_None: 78
+fadeout: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+load_music: 74
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+render_switch: 66 (Unused?)
+destroy_all_actors: 60
+destroy_actor: 58
+quit: 58 (Unused?)
+freemem_hard: 54 (Unused?)
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+freeze_actor: 46 (Unused?)
+unfreeze_actor: 46 (Unused?)
+autogen_rikki_die_l_2: 38
+autogen_stage1_grunt_death_l_1: 38
+count_enemies: 36
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_registers: 26 (Unused?)
+enemy_land: 26

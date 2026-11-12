@@ -1,0 +1,6 @@
+Yield 90
+Level none
+Screen Height=192 Frames=0
+If stage == 01
+    Level stage_1 Music=black_belt MusicPos=3 PanelBottom=hud
+End

@@ -1,0 +1,3 @@
+Level none cacheunload
+Set stage=0
+Goto startup
