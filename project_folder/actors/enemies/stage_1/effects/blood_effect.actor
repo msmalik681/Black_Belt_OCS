@@ -110,7 +110,7 @@
     "Height": 9
   },
   "AttackDelay": 0,
-  "ZOrder": 100,
+  "ZOrder": 101,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
@@ -128,6 +128,7 @@
   "CollType_Down": "block",
   "Player": null,
   "BlockCollider": null,
+  "BlockOverlap": null,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
@@ -197,6 +198,7 @@
   "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
+  "SlopeMode": "Single",
   "TileID": 3,
   "MaxTimelineFrames": 50
 }

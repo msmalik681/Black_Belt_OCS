@@ -110,9 +110,9 @@
     "Height": 76
   },
   "AttackDelay": 0,
-  "ZOrder": 0,
+  "ZOrder": 100,
   "SpeedLeft": 2.4,
-  "SpeedRight": 3.0,
+  "SpeedRight": 4.0,
   "SpeedUp": 10.0,
   "SpeedDown": 10.0,
   "AccelLeft": 5.0,
@@ -153,7 +153,7 @@
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
-    "4",
+    "3",
     "0",
     "0",
     "0",

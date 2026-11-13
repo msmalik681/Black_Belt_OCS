@@ -1,7 +1,15 @@
+Set enemy_count=0
+ForEachActor actor_type == stage1_grunt or actor_type == stage1_knife Goto count_enemies
+If enemy_count
+    Return
+End
+
 Level none cacheunload
 PanelBottom none
 MusicVol 0
 MusicPause
+Panel game_over Frames=0 ForFire
+Panel none Frames=0
 Set stage=0
 Goto startup
 

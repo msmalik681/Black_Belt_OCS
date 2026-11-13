@@ -110,7 +110,7 @@
     "Height": 76
   },
   "AttackDelay": 0,
-  "ZOrder": 0,
+  "ZOrder": 40,
   "SpeedLeft": 3.0,
   "SpeedRight": 4.0,
   "SpeedUp": 10.0,
