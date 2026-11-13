@@ -1,3 +1,7 @@
 Level none cacheunload
+PanelBottom none
+MusicVol 0
+MusicPause
 Set stage=0
 Goto startup
+

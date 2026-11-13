@@ -1,5 +1,5 @@
-Compiled on 12 November 2026 14:49:49
-Version string: SE2026.0.261111.18.51.EX
+Compiled on 13 November 2026 12:43:40
+Version string: SE2026.0.261113.22.30.EX
 
 === Misc ===
 ImageFrames: 131
@@ -33,20 +33,20 @@ Misc data size: 110
    PC02 |    75126 |      702 |  NoCrunch | Panel bobs hud
    PL03 |    75828 |    47860 |  NoCrunch | Panel title
    VV00 |   123688 |     1048 |  NoCrunch | Project Variables
-   VC00 |   124736 |    17254 |  NoCrunch | Project virtual machine (codeblocks)
-   MH01 |   141990 |      848 |  NoCrunch | Header data for map lives_screen
-   MD01 |   142838 |     2024 |  NoCrunch | Tile data for map lives_screen (mem restrictions:None)
-   MA02 |      372 |       56 |  NoCrunch | Map actor data for stage_1
-   MH02 |   144862 |      848 |  NoCrunch | Header data for map stage_1
-   MD02 |   145710 |    10412 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
-   AB00 |   156122 |   105584 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB02 |   261706 |    30272 |  NoCrunch | Asset bundle 2 (stage_1)
-   AB01 |   291978 |     1870 |  NoCrunch | Asset bundle 1 (lives_screen)
-   DB00 |   293848 |    13884 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   307732 |     4508 |  NoCrunch | Project Header
-   PD01 |      428 |        4 |  NoCrunch | Project Custom Collisions
-   PD00 |   312240 |     9852 |  NoCrunch | Project Data
-   VR00 |      432 |        4 |  NoCrunch | Project virtual machine redirects
+   VC00 |   124736 |    17694 |  NoCrunch | Project virtual machine (codeblocks)
+   MH01 |   142430 |      848 |  NoCrunch | Header data for map lives_screen
+   MD01 |   143278 |     2024 |  NoCrunch | Tile data for map lives_screen (mem restrictions:None)
+   MA02 |      372 |       28 |  NoCrunch | Map actor data for stage_1
+   MH02 |   145302 |      848 |  NoCrunch | Header data for map stage_1
+   MD02 |   146150 |    10412 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   AB00 |   156562 |   105584 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB02 |   262146 |    30272 |  NoCrunch | Asset bundle 2 (stage_1)
+   AB01 |   292418 |     1870 |  NoCrunch | Asset bundle 1 (lives_screen)
+   DB00 |   294288 |    13884 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   308172 |     4508 |  NoCrunch | Project Header
+   PD01 |      400 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |   312680 |     9852 |  NoCrunch | Project Data
+   VR00 |      404 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
@@ -54,7 +54,7 @@ Misc data size: 110
    47860 |    47860 |        | Panel title
    32916 |    32916 |        | Music samples black_belt
    30272 |    30272 |        | Asset bundle 2 (stage_1)
-   17254 |    17254 |        | Project virtual machine (codeblocks)
+   17694 |    17694 |        | Project virtual machine (codeblocks)
    15420 |    15420 |        | Music data black_belt
    13884 |    13884 |        | Misc Data (paths, hurt boxes etc)
    13538 |    13538 |        | Plugin: PT Player
@@ -70,7 +70,7 @@ Misc data size: 110
      848 |      848 |        | Header data for map lives_screen
      848 |      848 |        | Header data for map stage_1
      702 |      702 |        | Panel bobs hud
-      56 |       56 |        | Map actor data for stage_1
+      28 |       28 |        | Map actor data for stage_1
        4 |        4 |        | Project Custom Collisions
        4 |        4 |        | Project virtual machine redirects
 
@@ -89,7 +89,7 @@ For other:
 Map data memory: 10412
 Map background memory: 4932
 EXE memory: 196272
-vm memory: 17254
+vm memory: 17694
 project memory: 9852
 Music data (black_belt): 15420
 Misc data memory: 13884
@@ -100,8 +100,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 445167
-Accounted memory other: 382336
-Accounted memory total: 827503
+Accounted memory other: 382776
+Accounted memory total: 827943
 
 === Possibly unused animations ===
 rikki_die_l
@@ -127,10 +127,10 @@ power_up
 === Codeblocks by compiled size ===
 load_level: 640
 enemy_ai: 636
+stage_timer: 582
 stage_reset: 526
-stage_timer: 490
-startup: 486
-player_bump: 436
+startup: 500
+player_bump: 430
 enemy_pop: 418
 pre_startup: 374
 enemy_damage: 372
@@ -148,6 +148,7 @@ attack_button_2_kick: 228
 player_on_timer: 224
 block_find: 210 (Unused?)
 set_yresolution: 206
+stage_end: 198
 enemy_bump: 192 (Unused?)
 check_talkpad: 190 (Unused?)
 pause: 184
@@ -155,7 +156,6 @@ block_count: 178 (Unused?)
 flipymove: 162 (Unused?)
 snap_to_screen: 162 (Unused?)
 pre_quit: 160
-stage_end: 150 (Unused?)
 flipxmove: 142
 restart_this_level: 136 (Unused?)
 check_direction: 136
@@ -166,20 +166,24 @@ enemy_special: 130 (Unused?)
 destroy_all_blocks: 128 (Unused?)
 autogen_stage1_knife_duck_throw_l_3: 126
 autogen_stage1_knife_throw_l_2: 126
+autogen_stage1_knife_duck_throw_r_3: 122
+autogen_stage1_knife_throw_r_2: 122
 autogen_rikki_duck_kick_l_1: 116
 autogen_rikki_duck_kick_r_1: 116
 autogen_rikki_duck_punch_l_1: 116
-autogen_rikki_duck_punch_r_1: 116
 autogen_rikki_jump_kick_l_0: 116
 autogen_rikki_jump_kick_r_0: 116
 autogen_rikki_jump_punch_l_1: 116
 autogen_rikki_kick_l_1: 116
 autogen_rikki_kick_r_1: 116
 autogen_rikki_punch_l_1: 116
-autogen_rikki_punch_r_1: 116
 autogen_stage1_knife_runback_l_0: 116
 autogen_stage1_knife_walk_l_1: 116
+autogen_rikki_duck_punch_r_1: 114
 autogen_rikki_jump_punch_r_1: 114
+autogen_rikki_punch_r_1: 114
+autogen_stage1_knife_runback_r_0: 112
+autogen_stage1_knife_walk_r_1: 112
 anim_force_left: 108 (Unused?)
 anim_force_right: 108 (Unused?)
 fadein: 108
@@ -231,14 +235,10 @@ return: 52 (Unused?)
 load_panel_finish: 50
 unload_panel_bottom: 50
 unload_panel_top: 50
-autogen_stage1_knife_duck_throw_r_3: 48
-autogen_stage1_knife_throw_r_2: 48
 freeze_actor: 46 (Unused?)
 unfreeze_actor: 46 (Unused?)
 autogen_rikki_die_l_2: 38
 autogen_stage1_grunt_death_l_1: 38
-autogen_stage1_knife_runback_r_0: 38
-autogen_stage1_knife_walk_r_1: 38
 count_enemies: 36
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32

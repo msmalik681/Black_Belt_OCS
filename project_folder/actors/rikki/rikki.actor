@@ -127,7 +127,7 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": true,
-  "BlockCollider": false,
+  "BlockCollider": true,
   "BlockOverlap": false,
   "CanRidePlatform": false,
   "Camera": null,
